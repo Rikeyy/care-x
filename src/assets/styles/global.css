@@ -1,0 +1,93 @@
+:root {
+  /* Color Palette */
+  --primary: #414b43;
+  --primary-light: rgba(65,75,67, 0.05);
+  --secondary: #f1ebe4;
+  --text-primary: #414b43;
+  --text-secondary: #666;
+  --background-light: var(--secondary);
+  --background-white: rgba(255, 255, 255, 0.95);
+  --border-color: #e5dfd8;
+
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 2rem;
+  --spacing-lg: 3rem;
+  --spacing-xl: 4rem;
+
+  /* Typography */
+  --font-size-xs: 0.9rem;
+  --font-size-sm: 1rem;
+  --font-size-md: 1.2rem;
+  --font-size-lg: 1.4rem;
+  --font-size-xl: 2.5rem;
+  --font-size-xxl: 3.5rem;
+  --font-size-hero: 4.5rem;
+
+  /* Border Radius */
+  --border-radius: 10px;
+
+  /* Transitions */
+  --transition-speed: 0.2s;
+
+  /* Container Width */
+  --container-width: 1200px;
+
+  /* Z-index layers */
+  --z-header: 1000;
+}
+
+/* Reset & Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  color: var(--text-primary);
+  line-height: 1.6;
+}
+
+/* Common Layout */
+.section {
+  padding: var(--spacing-xl) var(--spacing-md);
+}
+
+.content-wrapper {
+  max-width: var(--container-width);
+  margin: 0 auto;
+}
+
+/* Typography */
+.title {
+  font-size: var(--font-size-xxl);
+  color: var(--text-primary);
+  line-height: 1.2;
+  font-weight: bold;
+}
+
+/* Common Components */
+.card {
+  background-color: var(--background-light);
+  padding: var(--spacing-md);
+  border-radius: var(--border-radius);
+  transition: transform var(--transition-speed) ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .title {
+    font-size: var(--font-size-xl);
+  }
+  
+  .section {
+    padding: var(--spacing-lg) var(--spacing-md);
+  }
+} 
