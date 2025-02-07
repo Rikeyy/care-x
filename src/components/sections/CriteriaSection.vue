@@ -71,6 +71,7 @@ export default {
 
 .criteria-item {
   background-color: var(--background-light);
+  color: var(--text-secondary);
   padding: 1.5rem;
   border-radius: var(--border-radius);
   transition: transform var(--transition-speed) ease;

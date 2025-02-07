@@ -3,13 +3,13 @@
     <div class="footer-content">
       <div class="footer-section">
         <h4>Selangor Care Accelerator</h4>
-        <p>© 2024 All rights reserved</p>
+        <p>© 2025 All rights reserved</p>
       </div>
       <div class="footer-section">
         <h4>Contact</h4>
-        <p>Email: info@selangorcare.com</p>
+        <p>Email: carex.selangor@gmail.com</p>
         <p>017-368 7881 (Puan Shuhada)</p>
-          <p>018-281 1610 (Cik Syarifah)</p>
+        <p>018-281 1610 (Cik Syarifah)</p>
       </div>
       <div class="footer-section">
         <h4>Follow Us</h4>

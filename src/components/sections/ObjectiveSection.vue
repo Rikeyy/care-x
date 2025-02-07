@@ -7,9 +7,11 @@
       <div class="text-container">
         <p class="objective-text">
           Untuk memberikan pendedahan yang lebih khusus kepada pemain industri yang 
-          menyediakan produk atau perkhidmatan di dalam sektor penjagaan tentang modul 
-          perniagaan dan pitching yang lebih berkesan dan bersesuaian untuk dipraktikan 
-          di dalam perniagaan.
+          menyediakan produk atau perkhidmatan di dalam sektor penjagaan. Program ini 
+          bertujuan untuk meningkatkan inovasi dalam sektor penjagaan, memantapkan 
+          modul perniagaan dan kemahiran pitching yang lebih berkesan, serta 
+          memperkasakan solusi penjagaan yang boleh dipraktikkan dalam perniagaan 
+          untuk manfaat masyarakat.
         </p>
       </div>
     </div>
@@ -58,6 +60,8 @@ export default {
 .objective-text {
   font-size: 1.2rem;
   line-height: 1.8;
+  text-align: justify;
+  color: var(--text-secondary);
 }
 
 @media (max-width: 768px) {

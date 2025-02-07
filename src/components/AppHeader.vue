@@ -3,7 +3,7 @@
     <nav class="nav-container">
       <div class="logo-container">
         <div class="logo-primary">X-CARE STEP UP!</div>
-        <div class="logo-secondary">Selangor Care Accelerator</div>
+        <div><img src="@/assets/xcare.jpeg" alt="X-Care Logo" class="logo-image" style="width: 80px; height: 60px;"></div>
       </div>
       <div class="nav-links">
         <a href="#objectives" @click.prevent="scrollToSection('objectives')" :class="{ active: activeSection === 'objectives' }">Objektif</a>
@@ -131,7 +131,8 @@ export default {
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color: var(--text-primary);
+  background-color: var(--secondary);
+
   transition: width 0.2s ease;
 }
 

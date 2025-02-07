@@ -13,7 +13,7 @@
               <span class="day">20</span>
             </div>
             <div class="event-content">
-              <h3>Minggu 3</h3>
+              <h3>Minggu 3 (Pendaftaran)</h3>
               <ul>
                 <li>Sidang Media</li>
                 <li>Pengiklanan Pendaftaran</li>
@@ -53,6 +53,19 @@
           <div class="event-card">
             <div class="event-date">
               <span class="month">Mac</span>
+              <span class="day">17</span>
+            </div>
+            <div class="event-content">
+              <h3>Minggu 3</h3>
+              <ul>
+                <li>Deadline Acceptance Letter</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="event-card">
+            <div class="event-date">
+              <span class="month">Mac</span>
               <span class="day">20</span>
             </div>
             <div class="event-content">
@@ -73,6 +86,7 @@
               <h3>9am - 4pm</h3>
               <ul>
                 <li>Modul 2: Apa itu BMC?</li>
+                <li>(Innovating Business Models (BMC) for Sustainability)</li>
                 <li>Pitching Class 1 (Pitching Fundamental Skills)</li>
               </ul>
             </div>
@@ -86,8 +100,9 @@
             <div class="event-content">
               <h3>9am - 4pm</h3>
               <ul>
-                <li>Pitching Clinic 1: Elevator Pitch</li>
+                <li>Pitching Clinic 1: (Elevator Pitch)</li>
                 <li>Modul 3: Strategi Branding dalam trend global semasa</li>
+                <li>(Evolving Brand Identity in the current global trend)</li>
               </ul>
             </div>
           </div>
@@ -173,6 +188,61 @@
               </ul>
             </div>
           </div>
+
+          <div class="event-card">
+            <div class="event-date">
+              <span class="month">May</span>
+              <span class="day">7-8</span>
+            </div>
+            <div class="event-content">
+              <h3>Minggu 2</h3>
+              <ul>
+                <li>Pitching (Semi Final)</li>
+                <li>Melibatkan 30 syarikat</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="event-card">
+            <div class="event-date">
+              <span class="month">May</span>
+              <span class="day">9</span>
+            </div>
+            <div class="event-content">
+              <h3>Minggu 3</h3>
+              <ul>
+                <li>Pengumuman 10 syarikat yang layak ke peringkat akhir</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="event-card">
+            <div class="event-date">
+              <span class="month">May</span>
+              <span class="day">24</span>
+            </div>
+            <div class="event-content">
+              <h3>Minggu 4</h3>
+              <ul>
+                <li>Pitching (Final)</li>
+                <li>Melibatkan 10 Syarikat</li>
+                <li>Majlis penutupan dan penyampaian hadiah kepada 5 syarikat terbaik</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="event-card">
+            <div class="event-date">
+              <span class="month">June</span>
+              <span class="day">1</span>
+            </div>
+            <div class="event-content">
+              <h3>Onwards</h3>
+              <ul>
+                <li>Lawatan Industri ke Luar Negara</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -181,7 +251,64 @@
 
 <script>
 export default {
-  name: 'TimelineSection'
+  name: 'TimelineSection',
+  mounted() {
+    this.initDragScroll();
+  },
+  methods: {
+    initDragScroll() {
+      const slider = document.querySelector('.timeline-scroll');
+      let isDown = false;
+      let startX;
+      let scrollLeft;
+
+      slider.addEventListener('mousedown', (e) => {
+        isDown = true;
+        slider.classList.add('dragging');
+        startX = e.pageX - slider.offsetLeft;
+        scrollLeft = slider.scrollLeft;
+      });
+
+      slider.addEventListener('mouseleave', () => {
+        isDown = false;
+        slider.classList.remove('dragging');
+      });
+
+      slider.addEventListener('mouseup', () => {
+        isDown = false;
+        slider.classList.remove('dragging');
+      });
+
+      slider.addEventListener('mousemove', (e) => {
+        if (!isDown) return;
+        e.preventDefault();
+        const x = e.pageX - slider.offsetLeft;
+        const walk = (x - startX) * 2; // Scroll speed multiplier
+        slider.scrollLeft = scrollLeft - walk;
+      });
+
+      // Add touch support
+      slider.addEventListener('touchstart', (e) => {
+        isDown = true;
+        slider.classList.add('dragging');
+        startX = e.touches[0].pageX - slider.offsetLeft;
+        scrollLeft = slider.scrollLeft;
+      });
+
+      slider.addEventListener('touchend', () => {
+        isDown = false;
+        slider.classList.remove('dragging');
+      });
+
+      slider.addEventListener('touchmove', (e) => {
+        if (!isDown) return;
+        e.preventDefault();
+        const x = e.touches[0].pageX - slider.offsetLeft;
+        const walk = (x - startX) * 2;
+        slider.scrollLeft = scrollLeft - walk;
+      });
+    }
+  }
 }
 </script>
 
@@ -211,12 +338,17 @@ export default {
   overflow-x: auto;
   padding: 1rem 0;
   -webkit-overflow-scrolling: touch;
+  cursor: grab;
+  padding: 2rem 1rem;
+  scrollbar-width: thin;
+  scrollbar-color: var(--primary) var(--background-light);
 }
 
 .timeline-events {
   display: flex;
   gap: 2rem;
   padding: 0.5rem;
+  min-width: max-content;
 }
 
 .event-card {
@@ -226,8 +358,8 @@ export default {
   box-shadow: 0 4px 6px var(--shadow-color);
   display: flex;
   flex-direction: column;
-  min-width: 300px;
-  max-width: 300px;
+  min-width: 350px;
+  max-width: 350px;
   transition: transform var(--transition-speed) ease;
 }
 
@@ -237,7 +369,7 @@ export default {
 
 .event-date {
   background: var(--primary);
-  color: var(--hover-color);
+  color: var(--secondary);
   padding: 1rem;
   display: flex;
   flex-direction: row;
@@ -261,6 +393,7 @@ export default {
   flex: 1;
   display: flex;
   flex-direction: column;
+  background-color: var(--background-white);
 }
 
 .event-content h3 {
@@ -281,19 +414,24 @@ export default {
   line-height: 1.4;
 }
 
-/* Custom scrollbar */
 .timeline-scroll::-webkit-scrollbar {
-  height: 8px;
+  height: 12px;
 }
 
 .timeline-scroll::-webkit-scrollbar-track {
-  background: var(--scrollbar-track);
-  border-radius: 4px;
+  background: var(--background-light);
+  border-radius: 6px;
 }
 
 .timeline-scroll::-webkit-scrollbar-thumb {
-  background: var(--scrollbar-thumb);
-  border-radius: 4px;
+  background-color: var(--primary);
+  border-radius: 6px;
+  border: 3px solid var(--background-light);
+}
+
+.timeline-scroll.dragging {
+  cursor: grabbing;
+  user-select: none;
 }
 
 @media (max-width: 768px) {

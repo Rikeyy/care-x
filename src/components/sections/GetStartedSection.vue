@@ -2,7 +2,7 @@
   <section id="get-started" class="section">
     <div class="content-wrapper">
       <div class="get-started-container">
-        <h1 class="title">MULAKAN SEKARANG</h1>
+        <h1 class="title">DAFTAR SEKARANG</h1>
         <a href="https://forms.gle/bsAshwbqe5LuaaPy8" target="_blank" class="cta-button">
           Daftar Di Sini
         </a>
@@ -19,7 +19,8 @@ export default {
 
 <style scoped>
 .section {
-  padding: 6rem 2rem;
+  padding: 8rem 2rem;
+  margin-top: 4rem;
   background-color: var(--background-light);
 }
 
@@ -47,7 +48,7 @@ export default {
   display: inline-block;
   padding: 1rem 2.5rem;
   background-color: var(--primary);
-  color: var(--hover-color);
+  color: var(--secondary);
   text-decoration: none;
   border-radius: var(--border-radius);
   font-size: var(--font-size-md);
@@ -63,7 +64,8 @@ export default {
 
 @media (max-width: 768px) {
   .section {
-    padding: 4rem 2rem;
+    padding: 6rem 2rem;
+    margin-top: 2rem;
   }
 
   .title {

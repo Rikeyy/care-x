@@ -68,6 +68,7 @@ export default {
 
 .document-item {
   background-color: var(--background-light);
+  color: var(--text-secondary);
   padding: 2rem;
   border-radius: var(--border-radius);
   transition: transform var(--transition-speed) ease;
@@ -79,7 +80,6 @@ export default {
 
 .document-item h3 {
   font-size: var(--font-size-md);
-  color: var(--text-primary);
   margin-bottom: 1rem;
 }
 
