@@ -45,7 +45,7 @@ export default {
 
 .title {
   font-size: 3.5rem;
-  color: #2c3e50;
+  color: var(--text-primary);
   line-height: 1.2;
   font-weight: bold;
 }
@@ -62,29 +62,29 @@ export default {
 }
 
 .contact-item h3 {
-  font-size: 1.4rem;
-  color: #2c3e50;
+  font-size: var(--font-size-lg);
+  color: var(--text-primary);
   margin-bottom: 1rem;
   font-weight: normal;
 }
 
 .contact-item p {
-  font-size: 1.2rem;
-  color: #2c3e50;
+  font-size: var(--font-size-md);
+  color: var(--text-primary);
   line-height: 1.8;
 }
 
 @media (max-width: 768px) {
   .title {
-    font-size: 2.5rem;
+    font-size: var(--font-size-xl);
   }
 
   .contact-item h3 {
-    font-size: 1.2rem;
+    font-size: var(--font-size-md);
   }
 
   .contact-item p {
-    font-size: 1.1rem;
+    font-size: var(--font-size-sm);
   }
 }
 </style> 

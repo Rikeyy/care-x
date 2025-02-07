@@ -8,7 +8,7 @@
       <section class="hero">
         <div class="content-wrapper">
           <div class="hero-content">
-            <h1 class="title">CARE-X<br>STEP UP!</h1>
+            <h1 class="title">X-CARE<br>STEP UP!</h1>
             <p class="subtitle">Program Pemerkasaan Perniagaan Dalam Sektor Penjagaan</p>
           </div>
         </div>
@@ -19,7 +19,8 @@
       <documents-section />
       <benefits-section />
       <timeline-section />
-      <contact-section />
+      <get-started-section />
+      <!-- <contact-section /> -->
       <closing-section />
     </main>
 
@@ -36,7 +37,8 @@ import CriteriaSection from '@/components/sections/CriteriaSection.vue'
 import DocumentsSection from '@/components/sections/DocumentsSection.vue'
 import BenefitsSection from '@/components/sections/BenefitsSection.vue'
 import TimelineSection from '@/components/sections/TimelineSection.vue'
-import ContactSection from '@/components/sections/ContactSection.vue'
+import GetStartedSection from '@/components/sections/GetStartedSection.vue'
+// import ContactSection from '@/components/sections/ContactSection.vue'
 import ClosingSection from '@/components/sections/ClosingSection.vue'
 
 export default {
@@ -49,7 +51,8 @@ export default {
     DocumentsSection,
     BenefitsSection,
     TimelineSection,
-    ContactSection,
+    GetStartedSection,
+    // ContactSection,
     ClosingSection
   }
 }
@@ -73,7 +76,7 @@ main {
 
 .hero {
   padding: 8rem 2rem 6rem;
-  background-color: #f5f5f5;
+  background-color: var(--background-light);
   position: relative;
   overflow: hidden;
 }
@@ -85,7 +88,7 @@ main {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(135deg, rgba(44, 62, 80, 0.05) 0%, rgba(44, 62, 80, 0.01) 100%);
+  background: var(--background-gradient);
   z-index: 1;
 }
 
@@ -104,16 +107,16 @@ main {
 }
 
 .hero .title {
-  font-size: 4.5rem;
-  color: #2c3e50;
+  font-size: var(--font-size-hero);
+  color: var(--text-primary);
   line-height: 1.2;
   font-weight: bold;
   margin-bottom: 1.5rem;
 }
 
 .hero .subtitle {
-  font-size: 1.5rem;
-  color: #2c3e50;
+  font-size: var(--font-size-lg);
+  color: var(--text-primary);
   line-height: 1.6;
   max-width: 800px;
   margin: 0 auto;

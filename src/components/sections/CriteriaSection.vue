@@ -56,8 +56,8 @@ export default {
 }
 
 .title {
-  font-size: 3.5rem;
-  color: #2c3e50;
+  font-size: var(--font-size-xxl);
+  color: var(--text-primary);
   line-height: 1.2;
   font-weight: bold;
 }
@@ -70,10 +70,10 @@ export default {
 }
 
 .criteria-item {
-  background-color: #f5f5f5;
+  background-color: var(--background-light);
   padding: 1.5rem;
-  border-radius: 10px;
-  transition: transform 0.2s ease;
+  border-radius: var(--border-radius);
+  transition: transform var(--transition-speed) ease;
 }
 
 .criteria-item:hover {

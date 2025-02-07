@@ -2,7 +2,7 @@
   <header class="header">
     <nav class="nav-container">
       <div class="logo-container">
-        <div class="logo-primary">CARE-X STEP UP!</div>
+        <div class="logo-primary">X-CARE STEP UP!</div>
         <div class="logo-secondary">Selangor Care Accelerator</div>
       </div>
       <div class="nav-links">
@@ -11,7 +11,7 @@
         <a href="#documents" @click.prevent="scrollToSection('documents')" :class="{ active: activeSection === 'documents' }">Dokumen</a>
         <a href="#benefits" @click.prevent="scrollToSection('benefits')" :class="{ active: activeSection === 'benefits' }">Hadiah</a>
         <a href="#timeline" @click.prevent="scrollToSection('timeline')" :class="{ active: activeSection === 'timeline' }">Timeline</a>
-        <a href="#contact" @click.prevent="scrollToSection('contact')" :class="{ active: activeSection === 'contact' }">Hubungi</a>
+        <a href="#get-started" @click.prevent="scrollToSection('get-started')" :class="{ active: activeSection === 'get-started' }">Daftar</a>
       </div>
     </nav>
   </header>
@@ -53,7 +53,7 @@ export default {
         'documents',
         'benefits',
         'timeline',
-        'contact'
+        'get-started'
       ]
 
       const current = sections.find(section => {
@@ -100,7 +100,7 @@ export default {
 .logo-primary {
   font-size: 1.4rem;
   font-weight: bold;
-  color: #2c3e50;
+  color: var(--text-primary);
 }
 
 .logo-secondary {
@@ -118,7 +118,7 @@ export default {
 
 .nav-links a {
   text-decoration: none;
-  color: #2c3e50;
+  color: var(--text-primary);
   font-size: 1rem;
   transition: color 0.2s ease;
   position: relative;
@@ -131,12 +131,12 @@ export default {
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color: #2c3e50;
+  background-color: var(--text-primary);
   transition: width 0.2s ease;
 }
 
 .nav-links a:hover {
-  color: #2c3e50;
+  color: var(--text-primary);
 }
 
 .nav-links a:hover::after {
@@ -144,7 +144,7 @@ export default {
 }
 
 .nav-links a.active {
-  color: #2c3e50;
+  color: var(--text-primary);
   font-weight: 500;
 }
 

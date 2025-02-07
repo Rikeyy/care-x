@@ -31,9 +31,9 @@
 
     <style scoped>
     .footer {
-    background: #2c3e50;
-    color: white;
-    padding: 2rem 0;
+    background-color: var(--primary);
+    color: var(--background-white);
+    padding: var(--spacing-xl) 0;
     }
 
     .footer-content {
@@ -62,14 +62,14 @@
     }
 
     .social-links a {
-    color: #a3b1c2;
+    color: var(--secondary);
     text-decoration: none;
-    font-size: 0.9rem;
-    transition: color 0.2s ease;
+    font-size: var(--font-size-xs);
+    transition: color var(--transition-speed) ease;
     }
 
     .social-links a:hover {
-    color: white;
+    color: var(--hover-color);
     }
 
     @media (max-width: 768px) {

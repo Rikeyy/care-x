@@ -43,16 +43,16 @@ export default {
 
 .title {
   font-size: 3.5rem;
-  color: #2c3e50;
+  color: var(--text-primary);
   line-height: 1.2;
   font-weight: bold;
 }
 
 .text-container {
   flex: 2;
-  background-color: #f5f5f5;
+  background-color: var(--background-light);
   padding: 3rem;
-  border-radius: 10px;
+  border-radius: var(--border-radius);
 }
 
 .objective-text {

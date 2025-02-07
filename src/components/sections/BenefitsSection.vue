@@ -47,8 +47,8 @@ export default {
 }
 
 .title {
-  font-size: 3.5rem;
-  color: #2c3e50;
+  font-size: var(--font-size-xxl);
+  color: var(--text-primary);
   line-height: 1.2;
   font-weight: bold;
 }
@@ -62,11 +62,11 @@ export default {
 
 .benefit-item {
   flex: 1;
-  background-color: #f5f5f5;
+  background-color: var(--background-light);
   padding: 2rem;
-  border-radius: 10px;
+  border-radius: var(--border-radius);
   text-align: center;
-  transition: transform 0.2s ease;
+  transition: transform var(--transition-speed) ease;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -84,8 +84,8 @@ export default {
 }
 
 .benefit-item h3 {
-  font-size: 1.2rem;
-  color: #2c3e50;
+  font-size: var(--font-size-md);
+  color: var(--text-primary);
   line-height: 1.4;
 }
 

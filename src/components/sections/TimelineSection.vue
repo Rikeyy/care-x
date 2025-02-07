@@ -202,7 +202,7 @@ export default {
 
 .title {
   font-size: 3.5rem;
-  color: #2c3e50;
+  color: var(--text-primary);
   line-height: 1.2;
   font-weight: bold;
 }
@@ -220,15 +220,15 @@ export default {
 }
 
 .event-card {
-  background: white;
-  border-radius: 15px;
+  background: var(--background-white);
+  border-radius: var(--border-radius);
   overflow: hidden;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px var(--shadow-color);
   display: flex;
   flex-direction: column;
   min-width: 300px;
   max-width: 300px;
-  transition: transform 0.2s ease;
+  transition: transform var(--transition-speed) ease;
 }
 
 .event-card:hover {
@@ -236,8 +236,8 @@ export default {
 }
 
 .event-date {
-  background: #2c3e50;
-  color: white;
+  background: var(--primary);
+  color: var(--hover-color);
   padding: 1rem;
   display: flex;
   flex-direction: row;
@@ -264,9 +264,9 @@ export default {
 }
 
 .event-content h3 {
-  color: #2c3e50;
+  color: var(--text-primary);
   margin-bottom: 1rem;
-  font-size: 1.2rem;
+  font-size: var(--font-size-md);
 }
 
 .event-content ul {
@@ -276,8 +276,8 @@ export default {
 
 .event-content li {
   margin-bottom: 0.5rem;
-  color: #666;
-  font-size: 1rem;
+  color: var(--text-secondary);
+  font-size: var(--font-size-sm);
   line-height: 1.4;
 }
 
@@ -287,12 +287,12 @@ export default {
 }
 
 .timeline-scroll::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: var(--scrollbar-track);
   border-radius: 4px;
 }
 
 .timeline-scroll::-webkit-scrollbar-thumb {
-  background: #2c3e50;
+  background: var(--scrollbar-thumb);
   border-radius: 4px;
 }
 

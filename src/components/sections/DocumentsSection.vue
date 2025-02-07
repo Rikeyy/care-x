@@ -53,8 +53,8 @@ export default {
 }
 
 .title {
-  font-size: 3.5rem;
-  color: #2c3e50;
+  font-size: var(--font-size-xxl);
+  color: var(--text-primary);
   line-height: 1.2;
   font-weight: bold;
 }
@@ -67,10 +67,10 @@ export default {
 }
 
 .document-item {
-  background-color: #f5f5f5;
+  background-color: var(--background-light);
   padding: 2rem;
-  border-radius: 10px;
-  transition: transform 0.2s ease;
+  border-radius: var(--border-radius);
+  transition: transform var(--transition-speed) ease;
 }
 
 .document-item:hover {
@@ -78,8 +78,8 @@ export default {
 }
 
 .document-item h3 {
-  font-size: 1.3rem;
-  color: #2c3e50;
+  font-size: var(--font-size-md);
+  color: var(--text-primary);
   margin-bottom: 1rem;
 }
 

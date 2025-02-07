@@ -8,6 +8,14 @@
   --background-light: var(--secondary);
   --background-white: rgba(255, 255, 255, 0.95);
   --border-color: #e5dfd8;
+  
+  /* Additional Color Variables */
+  --text-muted: #666;
+  --shadow-color: rgba(0, 0, 0, 0.05);
+  --scrollbar-track: #f1f1f1;
+  --scrollbar-thumb: var(--primary);
+  --hover-color: white;
+  --background-gradient: linear-gradient(135deg, var(--primary-light) 0%, rgba(65, 75, 67, 0.01) 100%);
 
   /* Spacing */
   --spacing-xs: 0.5rem;
