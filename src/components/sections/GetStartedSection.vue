@@ -48,7 +48,7 @@ export default {
   display: inline-block;
   padding: 1rem 2.5rem;
   background-color: var(--primary);
-  color: var(--secondary);
+  color: var(--text-tertiary);
   text-decoration: none;
   border-radius: var(--border-radius);
   font-size: var(--font-size-md);

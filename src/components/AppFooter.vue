@@ -2,20 +2,18 @@
   <footer class="footer">
     <div class="footer-content">
       <div class="footer-section">
-        <h4>Selangor Care Accelerator</h4>
+        <h4>XCare</h4>
         <p>© 2025 All rights reserved</p>
       </div>
       <div class="footer-section">
         <h4>Contact</h4>
-        <p>Email: carex.selangor@gmail.com</p>
         <p>017-368 7881 (Puan Shuhada)</p>
         <p>018-281 1610 (Cik Syarifah)</p>
       </div>
       <div class="footer-section">
         <h4>Follow Us</h4>
         <div class="social-links">
-            <a href="https://selcare.com">https://selcare.com</a>
-          <a href="https://selgatecorporation.com">https://selgatecorporation.com</a>
+            <a href="mailto:carex.selangor@gmail.com">carex.selangor@gmail.com</a>
           <!-- Add social media links -->
             </div>
         </div>
@@ -62,7 +60,7 @@
     }
 
     .social-links a {
-    color: var(--secondary);
+    color: var(--text-tertiary);
     text-decoration: none;
     font-size: var(--font-size-xs);
     transition: color var(--transition-speed) ease;

@@ -369,7 +369,7 @@ export default {
 
 .event-date {
   background: var(--primary);
-  color: var(--secondary);
+  color: var(--text-tertiary);
   padding: 1rem;
   display: flex;
   flex-direction: row;

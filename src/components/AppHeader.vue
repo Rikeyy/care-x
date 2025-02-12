@@ -2,8 +2,15 @@
   <header class="header">
     <nav class="nav-container">
       <div class="logo-container">
-        <div class="logo-primary">X-CARE STEP UP!</div>
-        <div><img src="@/assets/xcare.jpeg" alt="X-Care Logo" class="logo-image" style="width: 80px; height: 60px;"></div>
+        <div class="logo-primary">XCARE, STEP UP!</div>
+        <div>
+          <img 
+            src="@/assets/xcare.png" 
+            alt="X-Care Logo" 
+            class="logo-image" 
+            style="width: 80px; height: 60px;"
+          >
+        </div>
       </div>
       <div class="nav-links">
         <a href="#objectives" @click.prevent="scrollToSection('objectives')" :class="{ active: activeSection === 'objectives' }">Objektif</a>

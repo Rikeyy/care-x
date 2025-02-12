@@ -6,12 +6,13 @@
       </div>
       <div class="text-container">
         <p class="objective-text">
-          Untuk memberikan pendedahan yang lebih khusus kepada pemain industri yang 
-          menyediakan produk atau perkhidmatan di dalam sektor penjagaan. Program ini 
-          bertujuan untuk meningkatkan inovasi dalam sektor penjagaan, memantapkan 
-          modul perniagaan dan kemahiran pitching yang lebih berkesan, serta 
-          memperkasakan solusi penjagaan yang boleh dipraktikkan dalam perniagaan 
-          untuk manfaat masyarakat.
+          • <strong>Meningkatkan inovasi dalam sektor penjagaan</strong> – Menyediakan penyelesaian baharu yang lebih baik dan mampu milik untuk golongan sasaran.
+        </p>
+        <p class="objective-text">
+          • <strong>Menyokong pertumbuhan perniagaan dalam sektor penjagaan</strong> – Memberikan latihan, bimbingan, rangkaian, dan infrastruktur bagi membolehkan perniagaan berkembang dan berdaya saing.
+        </p>
+        <p class="objective-text">
+          • <strong>Mewujudkan ekosistem penjagaan yang mampan</strong> – Memastikan perkhidmatan penjagaan berkualiti tinggi dapat diakses oleh rakyat negeri Selangor tanpa mengira status ekonomi mereka
         </p>
       </div>
     </div>
@@ -62,6 +63,11 @@ export default {
   line-height: 1.8;
   text-align: justify;
   color: var(--text-secondary);
+  margin-bottom: 1.5rem;
+}
+
+.objective-text:last-child {
+  margin-bottom: 0;
 }
 
 @media (max-width: 768px) {
