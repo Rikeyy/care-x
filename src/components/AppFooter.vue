@@ -46,20 +46,26 @@
     .footer-section h4 {
     font-size: 1.2rem;
     margin-bottom: 1rem;
-    margin-left: 20%;
+    margin: 0 auto; /* Centers the entire content */
+    padding: 0 2rem;
+    display: block; /* Change from flex to block */
     }
 
     .footer-section p {
     margin-bottom: 0.5rem;
     font-size: 0.9rem;
-    margin-left: 20%;
+    margin: 0 auto; /* Centers the entire content */
+    padding: 0 2rem;
+    display: block; /* Change from flex to block */
     }
 
     .social-links {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    margin-left: 20%;
+    margin: 0 auto; /* Centers the entire content */
+    padding: 0 2rem;
+    display: block; /* Change from flex to block */
     }
 
     .social-links a {
