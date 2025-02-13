@@ -2,14 +2,22 @@
   <header class="header">
     <nav class="nav-container">
       <div class="logo-container">
-        <div class="logo-primary">XCARE, STEP UP!</div>
         <div>
+          <img 
+            src="@/assets/Logo-Lambang-Jata-Selangor.png" 
+            alt="Selangor Logo" 
+            class="logo-image" 
+            style="width: 90px; height: 65px;"
+          >
+        </div>
+        <div class="logo-primary">
           <img 
             src="@/assets/xcare.png" 
             alt="X-Care Logo" 
             class="logo-image" 
-            style="width: 80px; height: 60px;"
+            style="width: 100px; height: 75px;"
           >
+          <span class="step-up">STEP UP!</span>
         </div>
       </div>
       
@@ -122,13 +130,20 @@ export default {
 .logo-container {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 0;
 }
 
 .logo-primary {
-  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.step-up {
+  font-size: 1.1rem;
   font-weight: bold;
-  color: var(--text-primary);
+  margin-top: 0.2rem;
+  transform: translateY(0px);
 }
 
 .logo-secondary {
@@ -274,5 +289,15 @@ export default {
 
 .hamburger.is-active span:nth-child(3) {
   transform: translateY(-9px) rotate(-45deg);
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  gap: 1rem;  /* Space between logos */
+}
+
+.logo-image {
+  object-fit: contain;
 }
 </style> 

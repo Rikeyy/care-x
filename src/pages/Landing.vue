@@ -8,7 +8,7 @@
       <section class="hero">
         <div class="content-wrapper">
           <div class="hero-content">
-            <h1 class="title">X-CARE<br>STEP UP!</h1>
+            <h1 class="title">XCARE<br>STEP UP!</h1>
             <p class="subtitle">Program Pemerkasaan Perniagaan Dalam Sektor Penjagaan</p>
           </div>
         </div>

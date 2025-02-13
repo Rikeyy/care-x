@@ -6,6 +6,7 @@
         <a href="https://forms.gle/bsAshwbqe5LuaaPy8" target="_blank" class="cta-button">
           Daftar Di Sini
         </a>
+        <h2 class="closing-date">Tarikh tutup penyertaan 10 Mac 2025</h2>
       </div>
     </div>
   </section>
@@ -41,7 +42,7 @@ export default {
 
 .title {
   font-size: var(--font-size-xxl);
-  color: var(--text-primary);
+  color: var(--text-quaternary);
   line-height: 1.2;
   font-weight: bold;
 }
@@ -49,7 +50,7 @@ export default {
 .cta-button {
   display: inline-block;
   padding: 1rem 2.5rem;
-  background-color: var(--primary);
+  background-color: var(--text-quaternary);
   color: var(--text-tertiary);
   text-decoration: none;
   border-radius: var(--border-radius);
@@ -62,6 +63,13 @@ export default {
 .cta-button:hover {
   transform: translateY(-3px);
   box-shadow: 0 4px 12px var(--shadow-color);
+}
+
+.closing-date {
+  font-size: var(--font-size-xl);
+  color: var(--text-quaternary);
+  font-weight: bold;
+  text-align: center;
 }
 
 @media (max-width: 768px) {

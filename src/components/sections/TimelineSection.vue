@@ -2,7 +2,7 @@
   <section id="timeline" class="section">
     <div class="content-wrapper">
       <div class="title-container">
-        <h1 class="title">TIMELINE PROGRAM</h1>
+        <h1 class="title">GARIS MASA PROGRAM</h1>
       </div>
       <div class="timeline-scroll">
         <div class="timeline-events">
@@ -15,10 +15,7 @@
             <div class="event-content">
               <h3>Minggu 3 (Pendaftaran)</h3>
               <ul>
-                <li>Sidang Media</li>
-                <li>Pengiklanan Pendaftaran</li>
-                <li>Pendaftaran permohonan</li>
-                <li>Saringan peserta</li>
+                <li>Pendaftaran Dibuka</li>
               </ul>
             </div>
           </div>
@@ -32,7 +29,7 @@
             <div class="event-content">
               <h3>Minggu 2</h3>
               <ul>
-                <li>Tutup Pendaftaran</li>
+                <li>Pendaftaran Ditutup</li>
               </ul>
             </div>
           </div>
@@ -45,7 +42,8 @@
             <div class="event-content">
               <h3>Minggu 2</h3>
               <ul>
-                <li>Keluarkan Acceptance Letter</li>
+                <li>Surat Setuju Terima Dikeluarkan
+                  kepada peserta yang layak</li>
               </ul>
             </div>
           </div>
@@ -58,7 +56,8 @@
             <div class="event-content">
               <h3>Minggu 3</h3>
               <ul>
-                <li>Deadline Acceptance Letter</li>
+                <li>Tarikh Akhir untuk maklum balas
+                  Surat Setuju Terima</li>
               </ul>
             </div>
           </div>
@@ -71,8 +70,7 @@
             <div class="event-content">
               <h3>9am - 4pm</h3>
               <ul>
-                <li>Modul 1: Pengenalan dasar Care Economy</li>
-                <li>Soft launch</li>
+                <li><strong>Modul 1:</strong> <em>Pengenalan kepada Ekonomi Penjagaan</em></li>
               </ul>
             </div>
           </div>
@@ -85,9 +83,8 @@
             <div class="event-content">
               <h3>9am - 4pm</h3>
               <ul>
-                <li>Modul 2: Apa itu BMC?</li>
-                <li>(Innovating Business Models (BMC) for Sustainability)</li>
-                <li>Pitching Class 1 (Pitching Fundamental Skills)</li>
+                <li><strong>Modul 2:</strong> <em>Apa itu BMC?</em></li>
+                <li><strong>Kelas Pitching 1</strong> <em>(Kemahiran Asas Pitching)</em></li>
               </ul>
             </div>
           </div>
@@ -100,9 +97,8 @@
             <div class="event-content">
               <h3>9am - 4pm</h3>
               <ul>
-                <li>Pitching Clinic 1: (Elevator Pitch)</li>
-                <li>Modul 3: Strategi Branding dalam trend global semasa</li>
-                <li>(Evolving Brand Identity in the current global trend)</li>
+                <li><strong>Klinik Pitching 1</strong> <em>(Asah Kemahiran Pitch)</em></li>
+                <li><strong>Modul 3:</strong> <em>Strategi Branding dalam trend global semasa</em></li>
               </ul>
             </div>
           </div>
@@ -116,8 +112,9 @@
             <div class="event-content">
               <h3>9am - 4pm</h3>
               <ul>
-                <li>Pitching Class 2: Preparing a Winning Pitch Deck</li>
-                <li>Pitching Clinic 2</li>
+                <li><strong>Kelas Pitching 2</strong> <em>(Membina Pitch Deck Berjaya & Strategi Menarik
+                  Pelabur)</em></li>
+                <li><strong>Klinik Pitching 2</strong> <em>(Pembentangan Pitch)</em></li>
               </ul>
             </div>
           </div>
@@ -130,8 +127,8 @@
             <div class="event-content">
               <h3>9am - 4pm</h3>
               <ul>
-                <li>Modul 4: Strategic Fundraising</li>
-                <li>Modul 5: Jaga Duit, Jaga Bisnes</li>
+                <li><strong>Modul 4:</strong> <em>Strategic Fundraising: Bila Duit Tidak Jatuh Dari Langit</em></li>
+                <li><strong>Modul 5:</strong> <em>Jaga Duit, Jaga Bisnes</em></li>
               </ul>
             </div>
           </div>
@@ -144,7 +141,7 @@
             <div class="event-content">
               <h3>9am - 1pm</h3>
               <ul>
-                <li>Business Talk & Networking Event</li>
+                <li><strong>Business Talk & Networking Event</strong> <em>(Meneroka Horizon Baru: Peluang dan Inovasi dalam Dunia Perniagaan)</em></li>
               </ul>
             </div>
           </div>
@@ -157,7 +154,7 @@
             <div class="event-content">
               <h3>9am - 4pm</h3>
               <ul>
-                <li>Lawatan Industri</li>
+                <li>Lawatan Industri Tempatan</li>
               </ul>
             </div>
           </div>
@@ -170,8 +167,8 @@
             <div class="event-content">
               <h3>9am - 4pm</h3>
               <ul>
-                <li>Modul 6: Strategi Pemasaran Digital</li>
-                <li>Modul 7: Data Analitik</li>
+                <li><strong>Modul 6:</strong> <em>Strategi Pemasaran Digital</em></li>
+                <li><strong>Modul 7:</strong> <em>Data Analitik : Mengumpul, Mentafsir dan Menganalisis data</em></li>
               </ul>
             </div>
           </div>
@@ -184,7 +181,7 @@
             <div class="event-content">
               <h3>9am - 4pm</h3>
               <ul>
-                <li>Pitching clinic 3: Role Play Pitch</li>
+                <li><strong>Klinik Pitching 3</strong> <em>(Simulasi Pitch)</em></li>
               </ul>
             </div>
           </div>
@@ -197,8 +194,7 @@
             <div class="event-content">
               <h3>Minggu 2</h3>
               <ul>
-                <li>Pitching (Semi Final)</li>
-                <li>Melibatkan 30 syarikat</li>
+                <li>Pitching (Pusingan Separuh Akhir)</li>
               </ul>
             </div>
           </div>
@@ -224,9 +220,7 @@
             <div class="event-content">
               <h3>Minggu 4</h3>
               <ul>
-                <li>Pitching (Final)</li>
-                <li>Melibatkan 10 Syarikat</li>
-                <li>Majlis penutupan dan penyampaian hadiah kepada 5 syarikat terbaik</li>
+                <li>Pitching (Peringkat Akhir)</li>
               </ul>
             </div>
           </div>

@@ -5,15 +5,17 @@
         <h1 class="title">OBJEKTIF<br>PROGRAM</h1>
       </div>
       <div class="text-container">
-        <p class="objective-text">
-          • <strong>Meningkatkan inovasi dalam sektor penjagaan</strong> – Menyediakan penyelesaian baharu yang lebih baik dan mampu milik untuk golongan sasaran.
-        </p>
-        <p class="objective-text">
-          • <strong>Menyokong pertumbuhan perniagaan dalam sektor penjagaan</strong> – Memberikan latihan, bimbingan, rangkaian, dan infrastruktur bagi membolehkan perniagaan berkembang dan berdaya saing.
-        </p>
-        <p class="objective-text">
-          • <strong>Mewujudkan ekosistem penjagaan yang mampan</strong> – Memastikan perkhidmatan penjagaan berkualiti tinggi dapat diakses oleh rakyat negeri Selangor tanpa mengira status ekonomi mereka
-        </p>
+        <ul class="objectives-list">
+          <li class="objective-text">
+            <strong>Meningkatkan inovasi dalam sektor penjagaan</strong> – Menyediakan penyelesaian baharu yang lebih baik dan mampu milik untuk golongan sasaran.
+          </li>
+          <li class="objective-text">
+            <strong>Menyokong pertumbuhan perniagaan dalam sektor penjagaan</strong> – Memberikan latihan, bimbingan, rangkaian, dan infrastruktur bagi membolehkan perniagaan berkembang dan berdaya saing.
+          </li>
+          <li class="objective-text">
+            <strong>Mewujudkan ekosistem penjagaan yang mampan</strong> – Memastikan perkhidmatan penjagaan berkualiti tinggi dapat diakses oleh rakyat negeri Selangor tanpa mengira status ekonomi mereka
+          </li>
+        </ul>
       </div>
     </div>
   </section>
@@ -58,10 +60,14 @@ export default {
   border-radius: var(--border-radius);
 }
 
+.objectives-list {
+  list-style-type: disc;
+  padding-left: 2rem;
+}
+
 .objective-text {
   font-size: 1.2rem;
   line-height: 1.8;
-  text-align: justify;
   color: var(--text-secondary);
   margin-bottom: 1.5rem;
 }
@@ -74,11 +80,14 @@ export default {
   .content-wrapper {
     flex-direction: column;
     gap: 2rem;
-    text-align: center;
+    align-items: center;
   }
 
   .title-container {
     position: static;
+    flex: none;
+    margin: 0 auto;
+    text-align: center;
   }
 
   .title {
@@ -86,6 +95,7 @@ export default {
   }
 
   .text-container {
+    width: 100%;
     padding: 2rem;
   }
 }

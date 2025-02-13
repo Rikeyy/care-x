@@ -59,7 +59,7 @@ export default {
 
 .title {
   font-size: var(--font-size-xxl);
-  color: var(--text-primary);
+  color: var(--text-quaternary);
   line-height: 1.2;
   font-weight: bold;
 }
@@ -72,7 +72,7 @@ export default {
 }
 
 .criteria-item {
-  background-color: var(--background-light);
+  background-color: var(--background-red);
   color: var(--text-secondary);
   padding: 1.5rem;
   border-radius: var(--border-radius);
@@ -98,12 +98,15 @@ export default {
   .content-wrapper {
     flex-direction: column;
     gap: 2rem;
-    text-align: center;
+    align-items: center;
   }
 
   .title-container {
     position: static;
+    flex: none;
+    margin: 0 auto;
     text-align: center;
+    order: -1;
   }
 
   .title {

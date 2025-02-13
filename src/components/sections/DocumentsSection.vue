@@ -102,15 +102,26 @@ export default {
   .content-wrapper {
     flex-direction: column;
     gap: 2rem;
-    text-align: center;
+    align-items: center;
   }
 
   .title-container {
     position: static;
+    flex: none;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
 
   .title {
     font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .text-container {
+    width: 100%;
   }
 
   .document-item {

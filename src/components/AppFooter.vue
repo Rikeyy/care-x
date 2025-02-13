@@ -3,17 +3,17 @@
     <div class="footer-content">
       <div class="footer-section">
         <h4>XCare</h4>
-        <p>© 2025 All rights reserved</p>
+        <p>Hak cipta terpelihara 2025 ©</p>
       </div>
       <div class="footer-section">
-        <h4>Contact</h4>
+        <h4>Hubungi Kami</h4>
         <p>017-368 7881 (Puan Shuhada)</p>
         <p>018-281 1610 (Cik Syarifah)</p>
       </div>
       <div class="footer-section">
-        <h4>Follow Us</h4>
+        <h4>Emel</h4>
         <div class="social-links">
-            <a href="mailto:carex.selangor@gmail.com">carex.selangor@gmail.com</a>
+            <a href="mailto:carex.selangor@gmail.com">xcare.selangor@gmail.com</a>
           <!-- Add social media links -->
             </div>
         </div>

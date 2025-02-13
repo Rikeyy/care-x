@@ -49,7 +49,7 @@ export default {
 
 .title {
   font-size: var(--font-size-xxl);
-  color: var(--text-primary);
+  color: var(--text-quaternary);
   line-height: 1.2;
   font-weight: bold;
 }
@@ -63,7 +63,7 @@ export default {
 
 .benefit-item {
   flex: 1;
-  background-color: var(--background-light);
+  background-color: var(--background-red);
   padding: 2rem;
   border-radius: var(--border-radius);
   text-align: center;
@@ -86,7 +86,7 @@ export default {
 
 .benefit-item h3 {
   font-size: var(--font-size-md);
-  color: var(--text-primary);
+  color: var(--text-quaternary);
   line-height: 1.4;
 }
 
