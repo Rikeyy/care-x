@@ -1,43 +1,46 @@
 <template>
   <header class="header">
     <nav class="nav-container">
-      <div class="logo-container">
-        <div>
-          <img 
-            src="@/assets/Logo-Lambang-Jata-Selangor.png" 
-            alt="Selangor Logo" 
-            class="logo-image" 
-            style="width: 90px; height: 65px;"
-          >
-        </div>
-        <div class="logo-primary">
-          <img 
-            src="@/assets/xcare.png" 
-            alt="X-Care Logo" 
-            class="logo-image" 
-            style="width: 100px; height: 75px;"
-          >
-          <span class="step-up">STEP UP!</span>
-        </div>
+      <div class="logo-primary">
+        <img 
+          src="@/assets/xcare.png" 
+          alt="X-Care Logo" 
+          class="logo-image" 
+          style="width: 100px; height: 75px;"
+        >
       </div>
-      
-      <!-- Hamburger menu button for mobile -->
-      <button class="menu-toggle" @click="toggleMenu">
-        <span class="hamburger" :class="{ 'is-active': isMenuOpen }">
-          <span></span>
-          <span></span>
-          <span></span>
-        </span>
-      </button>
 
-      <!-- Mobile sidebar navigation -->
-      <div class="nav-links" :class="{ 'is-open': isMenuOpen }">
-        <a href="#objectives" @click="handleNavClick('objectives')" :class="{ active: activeSection === 'objectives' }">Objektif</a>
-        <a href="#criteria" @click="handleNavClick('criteria')" :class="{ active: activeSection === 'criteria' }">Kriteria</a>
-        <a href="#documents" @click="handleNavClick('documents')" :class="{ active: activeSection === 'documents' }">Dokumen</a>
-        <a href="#benefits" @click="handleNavClick('benefits')" :class="{ active: activeSection === 'benefits' }">Hadiah</a>
-        <a href="#timeline" @click="handleNavClick('timeline')" :class="{ active: activeSection === 'timeline' }">Timeline</a>
-        <a href="#get-started" @click="handleNavClick('get-started')" :class="{ active: activeSection === 'get-started' }">Daftar</a>
+      <div class="right-section">
+        <div class="nav-links" :class="{ 'is-open': isMenuOpen }">
+          <a href="#objectives" @click="handleNavClick('objectives')" :class="{ active: activeSection === 'objectives' }">Objektif</a>
+          <a href="#criteria" @click="handleNavClick('criteria')" :class="{ active: activeSection === 'criteria' }">Kriteria</a>
+          <a href="#documents" @click="handleNavClick('documents')" :class="{ active: activeSection === 'documents' }">Dokumen</a>
+          <a href="#benefits" @click="handleNavClick('benefits')" :class="{ active: activeSection === 'benefits' }">Hadiah</a>
+          <a href="#timeline" @click="handleNavClick('timeline')" :class="{ active: activeSection === 'timeline' }">Timeline</a>
+          <a href="#get-started" @click="handleNavClick('get-started')" :class="{ active: activeSection === 'get-started' }">Daftar</a>
+        </div>
+        <img 
+          src="@/assets/Logo-Lambang-Jata-Selangor.png" 
+          alt="Selangor Logo" 
+          class="selangor-logo logo-image" 
+          style="width: 90px; height: 65px;"
+        >
+      </div>
+
+      <div class="mobile-controls">
+        <img 
+          src="@/assets/Logo-Lambang-Jata-Selangor.png" 
+          alt="Selangor Logo" 
+          class="mobile-selangor-logo logo-image" 
+          style="width: 90px; height: 65px;"
+        >
+        <button class="menu-toggle" @click="toggleMenu">
+          <span class="hamburger" :class="{ 'is-active': isMenuOpen }">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </button>
       </div>
     </nav>
   </header>
@@ -127,10 +130,10 @@ export default {
   align-items: center;
 }
 
-.logo-container {
+.right-section {
   display: flex;
   align-items: center;
-  gap: 0;
+  gap: 2rem;
 }
 
 .logo-primary {
@@ -202,7 +205,37 @@ export default {
   }
 }
 
+.selangor-logo {
+  display: block;
+}
+
+.mobile-controls {
+  display: none;
+}
+
+.mobile-selangor-logo {
+  display: none;
+}
+
 @media (max-width: 768px) {
+  .selangor-logo {
+    display: none;  /* Hide desktop version */
+  }
+
+  .mobile-controls {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .mobile-selangor-logo {
+    display: block;  /* Show mobile version */
+  }
+
+  .right-section {
+    gap: 1rem;
+  }
+  
   .menu-toggle {
     display: block !important;
   }

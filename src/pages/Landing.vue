@@ -8,7 +8,14 @@
       <section class="hero">
         <div class="content-wrapper">
           <div class="hero-content">
-            <h1 class="title">XCARE<br>STEP UP!</h1>
+            <div class="hero-title">
+              <img 
+                src="@/assets/xcare.png" 
+                alt="X-Care Logo" 
+                class="hero-logo"
+              />
+              <h1 class="title">STEP UP!</h1>
+            </div>
             <p class="subtitle">Program Pemerkasaan Perniagaan Dalam Sektor Penjagaan</p>
           </div>
         </div>
@@ -75,7 +82,7 @@ main {
 }
 
 .hero {
-  padding: 8rem 2rem 6rem;
+  padding: 2rem 2rem 6rem;
   position: relative;
   overflow: hidden;
   background-image: url('@/assets/2-Alibaba-Museum.jpeg');
@@ -105,15 +112,32 @@ main {
 }
 
 .hero-content {
+  position: relative;
+  z-index: 1;
+  padding-top: 2rem;
   text-align: center;
 }
 
-.hero .title {
+.hero-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+  margin-bottom: 1.5rem;
+}
+
+.hero-logo {
+  width: 350px;
+  height: auto;
+  object-fit: contain;
+  margin-bottom: -3.5rem;
+}
+
+.title {
   font-size: var(--font-size-hero);
   color: var(--text-primary);
   line-height: 1.2;
   font-weight: bold;
-  margin-bottom: 1.5rem;
 }
 
 .hero .subtitle {
@@ -126,14 +150,22 @@ main {
 
 @media (max-width: 768px) {
   .hero {
-    padding: 6rem 2rem 4rem;
+    padding: 3rem 2rem 4rem;  /* Reduced padding for mobile */
   }
 
-  .hero .title {
-    font-size: 3rem;
+  .hero-content {
+    padding-top: 1rem;  /* Less padding on top for mobile */
   }
 
-  .hero .subtitle {
+  .hero-logo {
+    width: 250px;  /* Slightly smaller logo for mobile if needed */
+  }
+
+  .title {
+    font-size: 2.5rem;  /* Adjust STEP UP! size for mobile */
+  }
+
+  .subtitle {
     font-size: 1.2rem;
   }
 }
