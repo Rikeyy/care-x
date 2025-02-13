@@ -31,6 +31,7 @@ export default {
 <style scoped>
 .section {
   padding: 4rem 2rem;
+  background-color: rgba(255, 255, 255, 0.777);
 }
 
 .content-wrapper {

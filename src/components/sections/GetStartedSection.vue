@@ -22,6 +22,8 @@ export default {
   padding: 8rem 2rem;
   margin-top: 4rem;
   background-color: var(--background-light);
+  background: rgba(255, 255, 255, 0.777);
+
 }
 
 .content-wrapper {

@@ -46,17 +46,20 @@
     .footer-section h4 {
     font-size: 1.2rem;
     margin-bottom: 1rem;
+    margin-left: 20%;
     }
 
     .footer-section p {
     margin-bottom: 0.5rem;
     font-size: 0.9rem;
+    margin-left: 20%;
     }
 
     .social-links {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+    margin-left: 20%;
     }
 
     .social-links a {

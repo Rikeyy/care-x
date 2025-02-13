@@ -37,6 +37,7 @@ export default {
 <style scoped>
 .section {
   padding: 4rem 2rem;
+  background-color: rgba(255, 255, 255, 0.777);
 }
 
 .content-wrapper {
@@ -45,6 +46,7 @@ export default {
   display: flex;
   align-items: flex-start;
   gap: 4rem;
+  background-color: wh;
   /* flex-direction: row-reverse; */
 }
 
