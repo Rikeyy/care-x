@@ -12,13 +12,24 @@
           >
         </div>
       </div>
-      <div class="nav-links">
-        <a href="#objectives" @click.prevent="scrollToSection('objectives')" :class="{ active: activeSection === 'objectives' }">Objektif</a>
-        <a href="#criteria" @click.prevent="scrollToSection('criteria')" :class="{ active: activeSection === 'criteria' }">Kriteria</a>
-        <a href="#documents" @click.prevent="scrollToSection('documents')" :class="{ active: activeSection === 'documents' }">Dokumen</a>
-        <a href="#benefits" @click.prevent="scrollToSection('benefits')" :class="{ active: activeSection === 'benefits' }">Hadiah</a>
-        <a href="#timeline" @click.prevent="scrollToSection('timeline')" :class="{ active: activeSection === 'timeline' }">Timeline</a>
-        <a href="#get-started" @click.prevent="scrollToSection('get-started')" :class="{ active: activeSection === 'get-started' }">Daftar</a>
+      
+      <!-- Hamburger menu button for mobile -->
+      <button class="menu-toggle" @click="toggleMenu">
+        <span class="hamburger" :class="{ 'is-active': isMenuOpen }">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+      </button>
+
+      <!-- Mobile sidebar navigation -->
+      <div class="nav-links" :class="{ 'is-open': isMenuOpen }">
+        <a href="#objectives" @click="handleNavClick('objectives')" :class="{ active: activeSection === 'objectives' }">Objektif</a>
+        <a href="#criteria" @click="handleNavClick('criteria')" :class="{ active: activeSection === 'criteria' }">Kriteria</a>
+        <a href="#documents" @click="handleNavClick('documents')" :class="{ active: activeSection === 'documents' }">Dokumen</a>
+        <a href="#benefits" @click="handleNavClick('benefits')" :class="{ active: activeSection === 'benefits' }">Hadiah</a>
+        <a href="#timeline" @click="handleNavClick('timeline')" :class="{ active: activeSection === 'timeline' }">Timeline</a>
+        <a href="#get-started" @click="handleNavClick('get-started')" :class="{ active: activeSection === 'get-started' }">Daftar</a>
       </div>
     </nav>
   </header>
@@ -29,7 +40,8 @@ export default {
   name: 'AppHeader',
   data() {
     return {
-      activeSection: ''
+      activeSection: '',
+      isMenuOpen: false
     }
   },
   mounted() {
@@ -73,6 +85,15 @@ export default {
       })
 
       this.activeSection = current || ''
+    },
+    toggleMenu() {
+      this.isMenuOpen = !this.isMenuOpen;
+      document.body.style.overflow = this.isMenuOpen ? 'hidden' : '';
+    },
+    handleNavClick(sectionId) {
+      this.scrollToSection(sectionId);
+      this.isMenuOpen = false;
+      document.body.style.overflow = '';
     }
   }
 }
@@ -167,16 +188,91 @@ export default {
 }
 
 @media (max-width: 768px) {
+  .menu-toggle {
+    display: block !important;
+  }
+
   .nav-container {
     padding: 1rem;
   }
 
   .nav-links {
-    gap: 1rem;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 250px;
+    height: 100vh;
+    background-color: white;
+    flex-direction: column;
+    padding: 80px 2rem 2rem;
+    transition: right 0.3s ease;
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .nav-links.is-open {
+    right: 0;
   }
 
   .nav-links a {
-    font-size: 0.9rem;
+    display: block;
+    padding: 1rem 0;
+    font-size: 1.1rem;
   }
+
+  .hamburger {
+    width: 24px;
+    height: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .hamburger span {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: var(--text-primary);
+    transition: all 0.3s ease;
+  }
+}
+
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  z-index: 1001;
+  position: relative;
+}
+
+.hamburger {
+  width: 24px;
+  height: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hamburger span {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: var(--text-primary);
+  transition: all 0.3s ease;
+}
+
+.hamburger.is-active span:nth-child(1) {
+  transform: translateY(9px) rotate(45deg);
+}
+
+.hamburger.is-active span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.is-active span:nth-child(3) {
+  transform: translateY(-9px) rotate(-45deg);
 }
 </style> 
