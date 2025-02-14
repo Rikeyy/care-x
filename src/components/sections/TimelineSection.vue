@@ -9,8 +9,7 @@
           <!-- Februari -->
           <div class="event-card">
             <div class="event-date">
-              <span class="month">Februari</span>
-              <span class="day">20</span>
+              <span class="date">20<sup>hb</sup> Februari 2025</span>
             </div>
             <div class="event-content">
               <h3>Minggu 3 (Pendaftaran)</h3>
@@ -23,8 +22,7 @@
           <!-- Mac -->
           <div class="event-card">
             <div class="event-date">
-              <span class="month">Mac</span>
-              <span class="day">10</span>
+              <span class="date">10<sup>hb</sup> Mac 2025</span>
             </div>
             <div class="event-content">
               <h3>Minggu 2</h3>
@@ -36,22 +34,19 @@
 
           <div class="event-card">
             <div class="event-date">
-              <span class="month">Mac</span>
-              <span class="day">13</span>
+              <span class="date">13<sup>hb</sup> Mac 2025</span>
             </div>
             <div class="event-content">
               <h3>Minggu 2</h3>
               <ul>
-                <li>Surat Setuju Terima Dikeluarkan
-                  kepada peserta yang layak</li>
+                <li>Surat Setuju Terima Dikeluarkan kepada peserta yang layak</li>
               </ul>
             </div>
           </div>
 
           <div class="event-card">
             <div class="event-date">
-              <span class="month">Mac</span>
-              <span class="day">17</span>
+              <span class="date">17<sup>hb</sup> Mac 2025</span>
             </div>
             <div class="event-content">
               <h3>Minggu 3</h3>
@@ -64,11 +59,10 @@
 
           <div class="event-card">
             <div class="event-date">
-              <span class="month">Mac</span>
-              <span class="day">20</span>
+              <span class="date">20<sup>hb</sup> Mac 2025</span>
             </div>
             <div class="event-content">
-              <h3>9am - 4pm</h3>
+              <h3>9 pagi - 4 petang</h3>
               <ul>
                 <li><strong>Modul 1:</strong> <em>Pengenalan kepada Ekonomi Penjagaan</em></li>
               </ul>
@@ -77,11 +71,10 @@
 
           <div class="event-card">
             <div class="event-date">
-              <span class="month">Mac</span>
-              <span class="day">24</span>
+              <span class="date">24<sup>hb</sup> Mac 2025</span>
             </div>
             <div class="event-content">
-              <h3>9am - 4pm</h3>
+              <h3>9 pagi - 4 petang</h3>
               <ul>
                 <li><strong>Modul 2:</strong> <em>Apa itu BMC?</em></li>
                 <li><strong>Kelas Pitching 1</strong> <em>(Kemahiran Asas Pitching)</em></li>
@@ -91,11 +84,10 @@
 
           <div class="event-card">
             <div class="event-date">
-              <span class="month">Mac</span>
-              <span class="day">25</span>
+              <span class="date">25<sup>hb</sup> Mac 2025</span>
             </div>
             <div class="event-content">
-              <h3>9am - 4pm</h3>
+              <h3>9 pagi - 4 petang</h3>
               <ul>
                 <li><strong>Klinik Pitching 1</strong> <em>(Asah Kemahiran Pitch)</em></li>
                 <li><strong>Modul 3:</strong> <em>Strategi Branding dalam trend global semasa</em></li>
@@ -106,11 +98,10 @@
           <!-- April -->
           <div class="event-card">
             <div class="event-date">
-              <span class="month">April</span>
-              <span class="day">9</span>
+              <span class="date">9<sup>hb</sup> April 2025</span>
             </div>
             <div class="event-content">
-              <h3>9am - 4pm</h3>
+              <h3>9 pagi - 4 petang</h3>
               <ul>
                 <li><strong>Kelas Pitching 2</strong> <em>(Membina Pitch Deck Berjaya & Strategi Menarik
                   Pelabur)</em></li>
@@ -121,8 +112,7 @@
 
           <div class="event-card">
             <div class="event-date">
-              <span class="month">April</span>
-              <span class="day">10</span>
+              <span class="date">10<sup>hb</sup> April 2025</span>
             </div>
             <div class="event-content">
               <h3>9am - 4pm</h3>
@@ -135,11 +125,10 @@
 
           <div class="event-card">
             <div class="event-date">
-              <span class="month">April</span>
-              <span class="day">15</span>
+              <span class="date">15<sup>hb</sup> April 2025</span>
             </div>
             <div class="event-content">
-              <h3>9am - 1pm</h3>
+              <h3>9 pagi - 1 petang</h3>
               <ul>
                 <li><strong>Business Talk & Networking Event</strong> <em>(Meneroka Horizon Baru: Peluang dan Inovasi dalam Dunia Perniagaan)</em></li>
               </ul>
@@ -148,11 +137,10 @@
 
           <div class="event-card">
             <div class="event-date">
-              <span class="month">April</span>
-              <span class="day">16</span>
+              <span class="date">16<sup>hb</sup> April 2025</span>
             </div>
             <div class="event-content">
-              <h3>9am - 4pm</h3>
+              <h3>9 pagi - 4 petang</h3>
               <ul>
                 <li>Lawatan Industri Tempatan</li>
               </ul>
@@ -161,11 +149,10 @@
 
           <div class="event-card">
             <div class="event-date">
-              <span class="month">April</span>
-              <span class="day">23</span>
+              <span class="date">23<sup>hb</sup> April 2025</span>
             </div>
             <div class="event-content">
-              <h3>9am - 4pm</h3>
+              <h3>9 pagi - 4 petang</h3>
               <ul>
                 <li><strong>Modul 6:</strong> <em>Strategi Pemasaran Digital</em></li>
                 <li><strong>Modul 7:</strong> <em>Data Analitik : Mengumpul, Mentafsir dan Menganalisis data</em></li>
@@ -175,11 +162,10 @@
 
           <div class="event-card">
             <div class="event-date">
-              <span class="month">April</span>
-              <span class="day">24</span>
+              <span class="date">24<sup>hb</sup> April 2025</span>
             </div>
             <div class="event-content">
-              <h3>9am - 4pm</h3>
+              <h3>9 pagi - 4 petang</h3>
               <ul>
                 <li><strong>Klinik Pitching 3</strong> <em>(Simulasi Pitch)</em></li>
               </ul>
@@ -188,8 +174,7 @@
 
           <div class="event-card">
             <div class="event-date">
-              <span class="month">May</span>
-              <span class="day">7-8</span>
+              <span class="date">7-8<sup>hb</sup> Mei 2025</span>
             </div>
             <div class="event-content">
               <h3>Minggu 2</h3>
@@ -201,8 +186,7 @@
 
           <div class="event-card">
             <div class="event-date">
-              <span class="month">May</span>
-              <span class="day">9</span>
+              <span class="date">9<sup>hb</sup> Mei 2025</span>
             </div>
             <div class="event-content">
               <h3>Minggu 3</h3>
@@ -214,8 +198,7 @@
 
           <div class="event-card">
             <div class="event-date">
-              <span class="month">May</span>
-              <span class="day">24</span>
+              <span class="date">24<sup>hb</sup> Mei 2025</span>
             </div>
             <div class="event-content">
               <h3>Minggu 4</h3>
@@ -227,8 +210,7 @@
 
           <div class="event-card">
             <div class="event-date">
-              <span class="month">June</span>
-              <span class="day">1</span>
+              <span class="date">1<sup>hb</sup> Jun 2025</span>
             </div>
             <div class="event-content">
               <h3>Onwards</h3>
@@ -366,19 +348,12 @@ export default {
   color: var(--text-tertiary);
   padding: 1rem;
   display: flex;
-  flex-direction: row;
-  align-items: center;
   justify-content: center;
-  gap: 0.5rem;
+  align-items: center;
 }
 
-.month {
-  font-size: 1.1rem;
-  text-transform: uppercase;
-}
-
-.day {
-  font-size: 1.8rem;
+.date {
+  font-size: 1.3rem;
   font-weight: bold;
 }
 
@@ -436,5 +411,11 @@ export default {
   .event-card {
     min-width: 280px;
   }
+}
+
+.date sup {
+  font-size: 0.5em;
+  font-weight: normal;
+  margin-left: 1px;
 }
 </style> 

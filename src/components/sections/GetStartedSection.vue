@@ -6,7 +6,7 @@
         <a href="https://forms.gle/bsAshwbqe5LuaaPy8" target="_blank" class="cta-button">
           Daftar Di Sini
         </a>
-        <h2 class="closing-date">Tarikh tutup penyertaan 10 Mac 2025</h2>
+        <h2 class="closing-date"><span>Tarikh tutup penyertaan 10 Mac 2025</span></h2>
       </div>
     </div>
   </section>
@@ -80,6 +80,28 @@ export default {
 
   .title {
     font-size: var(--font-size-xl);
+  }
+
+  .closing-date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;  /* Space between date and text */
+  }
+
+  .closing-date::before {
+    content: "Tarikh tutup penyertaan";
+    display: block;
+  }
+
+  .closing-date::after {
+    content: "10 Mac 2025";
+    display: block;
+  }
+
+  /* Hide the original text */
+  .closing-date span {
+    display: none;
   }
 }
 </style> 
