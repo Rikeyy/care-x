@@ -9,7 +9,7 @@
           <!-- Februari -->
           <div class="event-card">
             <div class="event-date">
-              <span class="date">20<sup>hb</sup> Februari 2025</span>
+              <span class="date">20<sup>HB</sup> Februari 2025</span>
             </div>
             <div class="event-content">
               <h3>Minggu 3 (Pendaftaran)</h3>
@@ -22,7 +22,7 @@
           <!-- Mac -->
           <div class="event-card">
             <div class="event-date">
-              <span class="date">10<sup>hb</sup> Mac 2025</span>
+              <span class="date">10<sup>HB</sup> Mac 2025</span>
             </div>
             <div class="event-content">
               <h3>Minggu 2</h3>
@@ -34,7 +34,7 @@
 
           <div class="event-card">
             <div class="event-date">
-              <span class="date">13<sup>hb</sup> Mac 2025</span>
+              <span class="date">13<sup>HB</sup> Mac 2025</span>
             </div>
             <div class="event-content">
               <h3>Minggu 2</h3>
@@ -46,7 +46,7 @@
 
           <div class="event-card">
             <div class="event-date">
-              <span class="date">17<sup>hb</sup> Mac 2025</span>
+              <span class="date">17<sup>HB</sup> Mac 2025</span>
             </div>
             <div class="event-content">
               <h3>Minggu 3</h3>
@@ -59,7 +59,7 @@
 
           <div class="event-card">
             <div class="event-date">
-              <span class="date">20<sup>hb</sup> Mac 2025</span>
+              <span class="date">20<sup>HB</sup> Mac 2025</span>
             </div>
             <div class="event-content">
               <h3>9 pagi - 4 petang</h3>
@@ -71,7 +71,7 @@
 
           <div class="event-card">
             <div class="event-date">
-              <span class="date">24<sup>hb</sup> Mac 2025</span>
+              <span class="date">24<sup>HB</sup> Mac 2025</span>
             </div>
             <div class="event-content">
               <h3>9 pagi - 4 petang</h3>
@@ -84,7 +84,7 @@
 
           <div class="event-card">
             <div class="event-date">
-              <span class="date">25<sup>hb</sup> Mac 2025</span>
+              <span class="date">25<sup>HB</sup> Mac 2025</span>
             </div>
             <div class="event-content">
               <h3>9 pagi - 4 petang</h3>
@@ -98,7 +98,7 @@
           <!-- April -->
           <div class="event-card">
             <div class="event-date">
-              <span class="date">9<sup>hb</sup> April 2025</span>
+              <span class="date">9<sup>HB</sup> April 2025</span>
             </div>
             <div class="event-content">
               <h3>9 pagi - 4 petang</h3>
@@ -112,7 +112,7 @@
 
           <div class="event-card">
             <div class="event-date">
-              <span class="date">10<sup>hb</sup> April 2025</span>
+              <span class="date">10<sup>HB</sup> April 2025</span>
             </div>
             <div class="event-content">
               <h3>9am - 4pm</h3>
@@ -125,7 +125,7 @@
 
           <div class="event-card">
             <div class="event-date">
-              <span class="date">15<sup>hb</sup> April 2025</span>
+              <span class="date">15<sup>HB</sup> April 2025</span>
             </div>
             <div class="event-content">
               <h3>9 pagi - 1 petang</h3>
@@ -137,7 +137,7 @@
 
           <div class="event-card">
             <div class="event-date">
-              <span class="date">16<sup>hb</sup> April 2025</span>
+              <span class="date">16<sup>HB</sup> April 2025</span>
             </div>
             <div class="event-content">
               <h3>9 pagi - 4 petang</h3>
@@ -149,7 +149,7 @@
 
           <div class="event-card">
             <div class="event-date">
-              <span class="date">23<sup>hb</sup> April 2025</span>
+              <span class="date">23<sup>HB</sup> April 2025</span>
             </div>
             <div class="event-content">
               <h3>9 pagi - 4 petang</h3>
@@ -162,7 +162,7 @@
 
           <div class="event-card">
             <div class="event-date">
-              <span class="date">24<sup>hb</sup> April 2025</span>
+              <span class="date">24<sup>HB</sup> April 2025</span>
             </div>
             <div class="event-content">
               <h3>9 pagi - 4 petang</h3>
@@ -174,7 +174,7 @@
 
           <div class="event-card">
             <div class="event-date">
-              <span class="date">7-8<sup>hb</sup> Mei 2025</span>
+              <span class="date">7-8<sup>HB</sup> Mei 2025</span>
             </div>
             <div class="event-content">
               <h3>Minggu 2</h3>
@@ -186,7 +186,7 @@
 
           <div class="event-card">
             <div class="event-date">
-              <span class="date">9<sup>hb</sup> Mei 2025</span>
+              <span class="date">9<sup>HB</sup> Mei 2025</span>
             </div>
             <div class="event-content">
               <h3>Minggu 3</h3>
@@ -198,7 +198,7 @@
 
           <div class="event-card">
             <div class="event-date">
-              <span class="date">24<sup>hb</sup> Mei 2025</span>
+              <span class="date">24<sup>HB</sup> Mei 2025</span>
             </div>
             <div class="event-content">
               <h3>Minggu 4</h3>
@@ -210,10 +210,10 @@
 
           <div class="event-card">
             <div class="event-date">
-              <span class="date">1<sup>hb</sup> Jun 2025</span>
+              <span class="date">1<sup>HB</sup> Jun 2025</span>
             </div>
             <div class="event-content">
-              <h3>Onwards</h3>
+              <h3>Seterusnya</h3>
               <ul>
                 <li>Lawatan Industri ke Luar Negara</li>
               </ul>
@@ -414,7 +414,7 @@ export default {
 }
 
 .date sup {
-  font-size: 0.5em;
+  font-size: 0.6em;
   font-weight: normal;
   margin-left: 1px;
 }
