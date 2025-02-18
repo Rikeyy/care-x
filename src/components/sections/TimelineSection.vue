@@ -12,7 +12,6 @@
               <span class="date">20<sup>hb</sup> Februari 2025</span>
             </div>
             <div class="event-content">
-              <h3>Minggu 3 (Pendaftaran)</h3>
               <ul>
                 <li>Pendaftaran Dibuka</li>
               </ul>
@@ -25,7 +24,6 @@
               <span class="date">10<sup>hb</sup> Mac 2025</span>
             </div>
             <div class="event-content">
-              <h3>Minggu 2</h3>
               <ul>
                 <li>Pendaftaran Ditutup</li>
               </ul>
@@ -37,7 +35,6 @@
               <span class="date">13<sup>hb</sup> Mac 2025</span>
             </div>
             <div class="event-content">
-              <h3>Minggu 2</h3>
               <ul>
                 <li>Surat Setuju Terima Dikeluarkan kepada peserta yang layak</li>
               </ul>
@@ -49,7 +46,6 @@
               <span class="date">17<sup>hb</sup> Mac 2025</span>
             </div>
             <div class="event-content">
-              <h3>Minggu 3</h3>
               <ul>
                 <li>Tarikh Akhir untuk maklum balas
                   Surat Setuju Terima</li>
@@ -115,7 +111,7 @@
               <span class="date">10<sup>hb</sup> April 2025</span>
             </div>
             <div class="event-content">
-              <h3>9am - 4pm</h3>
+              <h3>9 pagi - 4 petang</h3>
               <ul>
                 <li><strong>Modul 4:</strong> <em>Strategic Fundraising: Bila Duit Tidak Jatuh Dari Langit</em></li>
                 <li><strong>Modul 5:</strong> <em>Jaga Duit, Jaga Bisnes</em></li>
@@ -177,7 +173,6 @@
               <span class="date">7-8<sup>hb</sup> Mei 2025</span>
             </div>
             <div class="event-content">
-              <h3>Minggu 2</h3>
               <ul>
                 <li>Pitching (Pusingan Separuh Akhir)</li>
               </ul>
@@ -189,7 +184,6 @@
               <span class="date">9<sup>hb</sup> Mei 2025</span>
             </div>
             <div class="event-content">
-              <h3>Minggu 3</h3>
               <ul>
                 <li>Pengumuman 10 syarikat yang layak ke peringkat akhir</li>
               </ul>
@@ -201,7 +195,6 @@
               <span class="date">24<sup>hb</sup> Mei 2025</span>
             </div>
             <div class="event-content">
-              <h3>Minggu 4</h3>
               <ul>
                 <li>Pitching (Peringkat Akhir)</li>
               </ul>

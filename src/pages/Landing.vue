@@ -16,7 +16,7 @@
               />
               <h1 class="title">STEP UP!</h1>
             </div>
-            <p class="subtitle">Program Pemerkasaan Perniagaan Dalam Sektor Penjagaan</p>
+            <p class="subtitle">Jika Anda Mahu Kembangkan Perniagaan Dalam Sektor Penjagaan</p>
           </div>
         </div>
       </section>
@@ -85,7 +85,7 @@ main {
   padding: 2rem 2rem 6rem;
   position: relative;
   overflow: hidden;
-  background-image: url('@/assets/2-Alibaba-Museum.jpeg');
+  background-image: url('@/assets/2.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -98,7 +98,7 @@ main {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(255, 255, 255, 0.8);  /* 0.8 opacity white overlay */
+  background-color: rgba(255, 255, 255, 0.672);  /* 0.8 opacity white overlay */
 }
 
 .hero .content-wrapper {

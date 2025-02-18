@@ -1,7 +1,19 @@
 <template>
   <header class="header">
     <nav class="nav-container">
-      <div class="logo-primary">
+      <div class="logos-container">
+        <img 
+          src="@/assets/Logo-Lambang-Jata-Selangor.png" 
+          alt="Selangor Logo" 
+          class="logo-image" 
+          style="width: 90px; height: 65px;"
+        >
+        <img 
+          src="@/assets/ICON FULL COLOUR.png" 
+          alt="Icon Full Colour" 
+          class="logo-image" 
+          style="width: 80px; height: 55px;"
+        >
         <img 
           src="@/assets/xcare.png" 
           alt="X-Care Logo" 
@@ -19,21 +31,29 @@
           <a href="#timeline" @click="handleNavClick('timeline')" :class="{ active: activeSection === 'timeline' }">Timeline</a>
           <a href="#get-started" @click="handleNavClick('get-started')" :class="{ active: activeSection === 'get-started' }">Daftar</a>
         </div>
-        <img 
-          src="@/assets/Logo-Lambang-Jata-Selangor.png" 
-          alt="Selangor Logo" 
-          class="selangor-logo logo-image" 
-          style="width: 90px; height: 65px;"
-        >
       </div>
 
       <div class="mobile-controls">
-        <img 
-          src="@/assets/Logo-Lambang-Jata-Selangor.png" 
-          alt="Selangor Logo" 
-          class="mobile-selangor-logo logo-image" 
-          style="width: 90px; height: 65px;"
-        >
+        <div class="mobile-logos">
+          <img 
+            src="@/assets/Logo-Lambang-Jata-Selangor.png" 
+            alt="Selangor Logo" 
+            class="logo-image" 
+            style="width: 90px; height: 65px;"
+          >
+          <img 
+            src="@/assets/ICON FULL COLOUR.png" 
+            alt="Icon Full Colour" 
+            class="logo-image" 
+            style="width: 80px; height: 55px;"
+          >
+          <img 
+            src="@/assets/xcare.png" 
+            alt="X-Care Logo" 
+            class="logo-image" 
+            style="width: 100px; height: 75px;"
+          >
+        </div>
         <button class="menu-toggle" @click="toggleMenu">
           <span class="hamburger" :class="{ 'is-active': isMenuOpen }">
             <span></span>
@@ -124,7 +144,7 @@ export default {
 .nav-container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 1rem 2rem;
+  padding: 1rem 1rem 1rem 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -213,8 +233,10 @@ export default {
   display: none;
 }
 
-.mobile-selangor-logo {
-  display: none;
+.mobile-logos {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 @media (max-width: 768px) {
@@ -226,10 +248,14 @@ export default {
     display: flex;
     align-items: center;
     gap: 1rem;
+    width: 100%;
+    justify-content: space-between;
   }
 
-  .mobile-selangor-logo {
-    display: block;  /* Show mobile version */
+  .mobile-logos {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
   }
 
   .right-section {
@@ -332,5 +358,56 @@ export default {
 
 .logo-image {
   object-fit: contain;
+}
+
+.icon-full-colour {
+  display: block;
+}
+
+.mobile-icon-full-colour {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .icon-full-colour {
+    display: none;  /* Hide desktop version */
+  }
+
+  .mobile-icon-full-colour {
+    display: block;  /* Show mobile version */
+  }
+
+  .mobile-controls {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+}
+
+.logos-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: -1rem;
+}
+
+@media (max-width: 768px) {
+  .logos-container {
+    display: none;
+  }
+
+  .mobile-controls {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .mobile-logos {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
 }
 </style> 

@@ -15,7 +15,7 @@
         </div>
         <div class="benefit-item">
           <img src="@/assets/travel.svg" alt="Travel" class="benefit-icon">
-          <h3>Berpeluang menyertai lawatan industri ke luar negara</h3>
+          <h3>Lawatan industri ke luar negara bagi 5 pemenang terbaik</h3>
         </div>
       </div>
     </div>

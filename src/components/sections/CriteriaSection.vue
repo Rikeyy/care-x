@@ -18,7 +18,7 @@
           <p>Mempunyai produk atau perkhidmatan kepada solusi penjagaan yang sesuai dengan golongan sasaran seperti warga emas, kanak-kanak dan OKU</p>
         </div>
         <div class="criteria-item">
-          <p>Wakil syarikat (pengasas/pengasas bersama/pengurusan atasan) dikehendaki memberi komitmen selama 3 bulan program</p>
+          <p>Wakil syarikat (pengasas/pengasas bersama/pengurusan atasan) dikehendaki memberi komitmen selama 4 bulan program</p>
         </div>
       </div>
       <div class="title-container">
