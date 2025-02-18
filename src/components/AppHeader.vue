@@ -6,19 +6,19 @@
           src="@/assets/Logo-Lambang-Jata-Selangor.png" 
           alt="Selangor Logo" 
           class="logo-image" 
-          style="width: 90px; height: 65px;"
+          style="width: 70px; height: 50px;"
         >
         <img 
           src="@/assets/ICON FULL COLOUR.png" 
           alt="Icon Full Colour" 
           class="logo-image" 
-          style="width: 80px; height: 55px;"
+          style="width: 70px; height: 40px;"
         >
         <img 
           src="@/assets/xcare.png" 
           alt="X-Care Logo" 
           class="logo-image" 
-          style="width: 100px; height: 75px;"
+          style="width: 100px; height: 50px;"
         >
       </div>
 
