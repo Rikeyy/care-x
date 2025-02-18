@@ -9,9 +9,15 @@
           style="width: 70px; height: 50px;"
         >
         <img 
+          src="@/assets/3.png" 
+          alt="Icon Full Colour" 
+          class="logo-image desktop-only" 
+          style="width: 70px; height: 40px;"
+        >
+        <img 
           src="@/assets/ICON FULL COLOUR.png" 
           alt="Icon Full Colour" 
-          class="logo-image" 
+          class="logo-image mobile-only" 
           style="width: 70px; height: 40px;"
         >
         <img 
@@ -39,19 +45,19 @@
             src="@/assets/Logo-Lambang-Jata-Selangor.png" 
             alt="Selangor Logo" 
             class="logo-image" 
-            style="width: 90px; height: 65px;"
+            style="width: 70px; height: 50px;"
           >
           <img 
             src="@/assets/ICON FULL COLOUR.png" 
             alt="Icon Full Colour" 
             class="logo-image" 
-            style="width: 80px; height: 55px;"
+            style="width: 60px; height: 40px;"
           >
           <img 
             src="@/assets/xcare.png" 
             alt="X-Care Logo" 
             class="logo-image" 
-            style="width: 100px; height: 75px;"
+            style="width: 80px; height: 50px;"
           >
         </div>
         <button class="menu-toggle" @click="toggleMenu">
@@ -408,6 +414,24 @@ export default {
     display: flex;
     align-items: center;
     gap: 0.5rem;
+  }
+}
+
+.desktop-only {
+  display: block;
+}
+
+.mobile-only {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .desktop-only {
+    display: none;
+  }
+
+  .mobile-only {
+    display: block;
   }
 }
 </style> 
