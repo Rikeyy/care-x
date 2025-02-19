@@ -42,10 +42,10 @@
             style="width: 70px; height: 50px;"
           >
           <img 
-            src="@/assets/ICON FULL COLOUR.png" 
+            src="@/assets/3.png" 
             alt="Icon Full Colour" 
             class="logo-image" 
-            style="width: 60px; height: 40px;"
+            style="width: 130px; height: 100%;"
           >
         </div>
         <button class="menu-toggle" @click="toggleMenu">
