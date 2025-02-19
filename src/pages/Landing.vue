@@ -16,7 +16,7 @@
               />
               <h1 class="title">STEP UP!</h1>
             </div>
-            <p class="subtitle">Jika Anda Mahu Kembangkan Perniagaan Dalam Sektor Penjagaan</p>
+            <p class="subtitle">Jika anda mahu kembangkan perniagaan anda dalam bidang penjagaan, andalah yang kami cari!</p>
           </div>
         </div>
       </section>
