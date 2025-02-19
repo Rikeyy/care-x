@@ -39,7 +39,7 @@
             </div>
             <div class="event-content">
               <ul>
-                <li>Surat Setuju Terima Terima Dikeluarkan kepada peserta yang layak</li>
+                <li>Surat Setuju Terima Dikeluarkan kepada peserta yang layak</li>
               </ul>
             </div>
           </div>
@@ -127,7 +127,7 @@
               <span class="date">15<sup>hb</sup> April 2025</span>
             </div>
             <div class="event-content">
-              <h3>9 pagi - 1 petang</h3>
+              <h3>2 petang - 5 petang</h3>
               <ul>
                 <li><strong>Business Talk & Networking Event</strong> <em>(Meneroka Horizon Baru: Peluang dan Inovasi dalam Dunia Perniagaan)</em></li>
               </ul>
