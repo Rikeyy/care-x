@@ -3,6 +3,9 @@
     <div class="content-wrapper">
       <div class="title-container">
         <h1 class="title">GARIS MASA PROGRAM</h1>
+        <p class="disclaimer">
+          Masa dan lokasi program tertakluk kepada perubahan mengikut keperluan penganjur. Sebarang perubahan akan dimaklumkan kepada peserta melalui saluran komunikasi rasmi.
+        </p>
       </div>
       <div class="timeline-scroll">
         <div class="timeline-events">
@@ -36,7 +39,7 @@
             </div>
             <div class="event-content">
               <ul>
-                <li>Surat Setuju Terima Dikeluarkan kepada peserta yang layak</li>
+                <li>Surat Setuju Terima Terima Dikeluarkan kepada peserta yang layak</li>
               </ul>
             </div>
           </div>
@@ -72,7 +75,7 @@
             <div class="event-content">
               <h3>9 pagi - 4 petang</h3>
               <ul>
-                <li><strong>Modul 2:</strong> <em>Apa itu BMC?</em></li>
+                <li><strong>Modul 2:</strong> <em>Apa itu Model Kanvas Bisnes?</em></li>
                 <li><strong>Kelas Pitching 1</strong> <em>(Kemahiran Asas Pitching)</em></li>
               </ul>
             </div>
@@ -293,7 +296,7 @@ export default {
 
 .title-container {
   text-align: center;
-  margin-bottom: 3rem;
+  margin-bottom: 0.5rem;
 }
 
 .title {
@@ -301,6 +304,17 @@ export default {
   color: var(--text-primary);
   line-height: 1.2;
   font-weight: bold;
+}
+
+.disclaimer {
+  color: var(--text-secondary);
+  font-size: var(--font-size-sm);
+  margin-top: 1rem;
+  text-align: center;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5;
 }
 
 .timeline-scroll {

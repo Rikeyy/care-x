@@ -12,19 +12,13 @@
           src="@/assets/3.png" 
           alt="Icon Full Colour" 
           class="logo-image desktop-only" 
-          style="width: 70px; height: 40px;"
+          style="width: 130px; height:100%;"
         >
         <img 
           src="@/assets/ICON FULL COLOUR.png" 
           alt="Icon Full Colour" 
           class="logo-image mobile-only" 
           style="width: 70px; height: 40px;"
-        >
-        <img 
-          src="@/assets/xcare.png" 
-          alt="X-Care Logo" 
-          class="logo-image" 
-          style="width: 100px; height: 50px;"
         >
       </div>
 
@@ -33,8 +27,8 @@
           <a href="#objectives" @click="handleNavClick('objectives')" :class="{ active: activeSection === 'objectives' }">Objektif</a>
           <a href="#criteria" @click="handleNavClick('criteria')" :class="{ active: activeSection === 'criteria' }">Kriteria</a>
           <a href="#documents" @click="handleNavClick('documents')" :class="{ active: activeSection === 'documents' }">Dokumen</a>
-          <a href="#benefits" @click="handleNavClick('benefits')" :class="{ active: activeSection === 'benefits' }">Hadiah</a>
-          <a href="#timeline" @click="handleNavClick('timeline')" :class="{ active: activeSection === 'timeline' }">Timeline</a>
+          <a href="#benefits" @click="handleNavClick('benefits')" :class="{ active: activeSection === 'benefits' }">Ganjaran</a>
+          <a href="#timeline" @click="handleNavClick('timeline')" :class="{ active: activeSection === 'timeline' }">Garis Masa Program</a>
           <a href="#get-started" @click="handleNavClick('get-started')" :class="{ active: activeSection === 'get-started' }">Daftar</a>
         </div>
       </div>
@@ -52,12 +46,6 @@
             alt="Icon Full Colour" 
             class="logo-image" 
             style="width: 60px; height: 40px;"
-          >
-          <img 
-            src="@/assets/xcare.png" 
-            alt="X-Care Logo" 
-            class="logo-image" 
-            style="width: 80px; height: 50px;"
           >
         </div>
         <button class="menu-toggle" @click="toggleMenu">
@@ -364,6 +352,9 @@ export default {
 
 .logo-image {
   object-fit: contain;
+  display: block;
+  padding: 0;
+  margin: 0;
 }
 
 .icon-full-colour {

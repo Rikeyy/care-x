@@ -2,7 +2,7 @@
   <section id="benefits" class="section">
     <div class="content-wrapper">
       <div class="title-container">
-        <h1 class="title">HADIAH</h1>
+        <h1 class="title">GANJARAN</h1>
       </div>
       <div class="benefits-container">
         <div class="benefit-item">

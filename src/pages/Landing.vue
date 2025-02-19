@@ -85,9 +85,9 @@ main {
   padding: 2rem 2rem 6rem;
   position: relative;
   overflow: hidden;
-  background-image: url('@/assets/2.png');
+  background-image: url('@/assets/4.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: center 30%;
   background-repeat: no-repeat;
 }
 
