@@ -7,6 +7,9 @@
           Daftar Di Sini
         </a>
         <h2 class="closing-date"><span>Tarikh tutup penyertaan 10 Mac 2025</span></h2>
+        <button @click="downloadProfile" class="download-button">
+          Muat Turun Profail Program
+        </button>
       </div>
     </div>
   </section>
@@ -14,7 +17,25 @@
 
 <script>
 export default {
-  name: 'GetStartedSection'
+  name: 'GetStartedSection',
+  methods: {
+    downloadProfile() {
+      const fileUrl = '/XCare_Profile Poster.pdf';
+      const link = document.createElement('a');
+      link.href = fileUrl;
+      link.download = 'XCare_Profile Poster.pdf';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+
+      if (window.gtag) {
+        window.gtag('event', 'download', {
+          'event_category': 'profile',
+          'event_label': 'program_profile'
+        });
+      }
+    }
+  }
 }
 </script>
 
@@ -72,6 +93,24 @@ export default {
   text-align: center;
 }
 
+.download-button {
+  padding: 1rem 2.5rem;
+  background-color: var(--text-quaternary);
+  color: var(--text-tertiary);
+  border: none;
+  border-radius: var(--border-radius);
+  font-size: var(--font-size-md);
+  font-weight: 500;
+  cursor: pointer;
+  transition: transform var(--transition-speed) ease, 
+              box-shadow var(--transition-speed) ease;
+}
+
+.download-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px var(--shadow-color);
+}
+
 @media (max-width: 768px) {
   .section {
     padding: 6rem 2rem;
@@ -102,6 +141,11 @@ export default {
   /* Hide the original text */
   .closing-date span {
     display: none;
+  }
+
+  .download-button {
+    padding: 0.8rem 2rem;
+    font-size: var(--font-size-sm);
   }
 }
 </style> 
