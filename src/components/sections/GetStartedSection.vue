@@ -20,9 +20,12 @@ export default {
   name: 'GetStartedSection',
   methods: {
     downloadProfile() {
-      const fileUrl = '/XCare_Profile Poster.pdf';
+      // Open PDF in new tab
+      window.open('/XCare_Profile Poster.pdf', '_blank');
+
+      // Trigger download
       const link = document.createElement('a');
-      link.href = fileUrl;
+      link.href = '/XCare_Profile Poster.pdf';
       link.download = 'XCare_Profile Poster.pdf';
       document.body.appendChild(link);
       link.click();
