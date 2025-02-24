@@ -3,7 +3,12 @@
     <div class="content-wrapper">
       <div class="get-started-container">
         <h1 class="title">DAFTAR SEKARANG</h1>
-        <a href="https://forms.gle/bsAshwbqe5LuaaPy8" target="_blank" class="cta-button">
+        <a 
+          href="https://forms.gle/bsAshwbqe5LuaaPy8" 
+          target="_blank" 
+          class="cta-button"
+          @click="trackRegistration"
+        >
           Daftar Di Sini
         </a>
         <h2 class="closing-date"><span>Tarikh tutup penyertaan 10 Mac 2025</span></h2>
@@ -35,6 +40,14 @@ export default {
         window.gtag('event', 'download', {
           'event_category': 'profile',
           'event_label': 'program_profile'
+        });
+      }
+    },
+    trackRegistration() {
+      if (window.gtag) {
+        window.gtag('event', 'click', {
+          'event_category': 'registration',
+          'event_label': 'registration_form'
         });
       }
     }
