@@ -13,14 +13,16 @@
         </div>
         <div class="document-item video-pitch">
           <h3>Video Pitching berdurasi 1 minit</h3>
-          <p>bagi sesuatu produk/perkhidmatan bagi solusi penjagaan kepada warga emas/kanak-kanak/OKU. Mempunyai:</p>
-          <ul>
+          <p>Video Pitching ATAU Slaid ATAU Kertas Kerja tentang sesuatu produk/perkhidmatan bagi penjagaan yang ditawarkan oleh syarikat kepada orang tua/kanak kanak/OKU. Mempunyai:
+          </p>
+          <ol style="margin-left: 3rem;">
             <li>Tajuk</li>
             <li>Objektif produk/perkhidmatan bagi solusi penjagaan yang dicadangkan</li>
             <li>Penerangan produk/perkhidmatan bagi solusi penjagaan yang dicadangkan</li>
             <li>Anggaran perbelanjaan</li>
             <li>Ringkasan</li>
-          </ul>
+          </ol>
+          <p>Video haruslah berdurasi 1 minit sahaja dan Video ATAU Slaid ATAU Kertas Kerja boleh dihantar di dalam bentuk link (Google Drive, YouTube etc) melalui Google Form yang disediakan.</p>
         </div>
       </div>
     </div>
