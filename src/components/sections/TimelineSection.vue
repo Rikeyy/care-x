@@ -24,7 +24,7 @@
           <!-- Mac -->
           <div class="event-card">
             <div class="event-date">
-              <span class="date">10<sup>hb</sup> Mac 2025</span>
+              <span class="date">31<sup>hb</sup> Mac 2025</span>
             </div>
             <div class="event-content">
               <ul>
@@ -35,7 +35,7 @@
 
           <div class="event-card">
             <div class="event-date">
-              <span class="date">13<sup>hb</sup> Mac 2025</span>
+              <span class="date">7<sup>hb</sup> April 2025</span>
             </div>
             <div class="event-content">
               <ul>
@@ -46,7 +46,7 @@
 
           <div class="event-card">
             <div class="event-date">
-              <span class="date">17<sup>hb</sup> Mac 2025</span>
+              <span class="date">10<sup>hb</sup> April 2025</span>
             </div>
             <div class="event-content">
               <ul>
@@ -58,22 +58,22 @@
 
           <div class="event-card">
             <div class="event-date">
-              <span class="date">20<sup>hb</sup> Mac 2025</span>
+              <span class="date">22<sup>hb</sup> April 2025</span>
             </div>
             <div class="event-content">
-              <h3>9 pagi - 4 petang</h3>
+              <h3>2 petang - 5 petang</h3>
               <ul>
-                <li><strong>Modul 1:</strong> <em>Pengenalan kepada Ekonomi Penjagaan</em></li>
+                <li><strong>Modul 1:</strong> <em>Pengenalan kepada Dasar Ekonomi Penjagaan</em></li>
               </ul>
             </div>
           </div>
 
           <div class="event-card">
             <div class="event-date">
-              <span class="date">24<sup>hb</sup> Mac 2025</span>
+              <span class="date">23<sup>hb</sup> April 2025</span>
             </div>
             <div class="event-content">
-              <h3>9 pagi - 4 petang</h3>
+              <h3>9 pagi - 5 petang</h3>
               <ul>
                 <li><strong>Modul 2:</strong> <em>Apa itu Model Kanvas Bisnes?</em></li>
                 <li><strong>Kelas Pitching 1</strong> <em>(Kemahiran Asas Pitching)</em></li>
@@ -83,10 +83,10 @@
 
           <div class="event-card">
             <div class="event-date">
-              <span class="date">25<sup>hb</sup> Mac 2025</span>
+              <span class="date">29<sup>hb</sup> April 2025</span>
             </div>
             <div class="event-content">
-              <h3>9 pagi - 4 petang</h3>
+              <h3>9 pagi - 5 petang</h3>
               <ul>
                 <li><strong>Klinik Pitching 1</strong> <em>(Asah Kemahiran Pitch)</em></li>
                 <li><strong>Modul 3:</strong> <em>Strategi Branding dalam trend global semasa</em></li>
@@ -97,10 +97,10 @@
           <!-- April -->
           <div class="event-card">
             <div class="event-date">
-              <span class="date">9<sup>hb</sup> April 2025</span>
+              <span class="date">30<sup>hb</sup> April 2025</span>
             </div>
             <div class="event-content">
-              <h3>9 pagi - 4 petang</h3>
+              <h3>9 pagi - 5 petang</h3>
               <ul>
                 <li><strong>Kelas Pitching 2</strong> <em>(Membina Pitch Deck Berjaya & Strategi Menarik
                   Pelabur)</em></li>
@@ -111,20 +111,7 @@
 
           <div class="event-card">
             <div class="event-date">
-              <span class="date">10<sup>hb</sup> April 2025</span>
-            </div>
-            <div class="event-content">
-              <h3>9 pagi - 4 petang</h3>
-              <ul>
-                <li><strong>Modul 4:</strong> <em>Strategic Fundraising: Bila Duit Tidak Jatuh Dari Langit</em></li>
-                <li><strong>Modul 5:</strong> <em>Jaga Duit, Jaga Bisnes</em></li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="event-card">
-            <div class="event-date">
-              <span class="date">15<sup>hb</sup> April 2025</span>
+              <span class="date">6<sup>hb</sup> Mei 2025</span>
             </div>
             <div class="event-content">
               <h3>2 petang - 5 petang</h3>
@@ -136,22 +123,35 @@
 
           <div class="event-card">
             <div class="event-date">
-              <span class="date">16<sup>hb</sup> April 2025</span>
+              <span class="date">7<sup>hb</sup> Mei 2025</span>
             </div>
             <div class="event-content">
-              <h3>9 pagi - 4 petang</h3>
+              <h3>9 pagi - 5 petang</h3>
               <ul>
-                <li>Lawatan Industri Tempatan</li>
+                <li><strong>Modul 4:</strong> <em>Strategic Fundraising: Bila Duit Tidak Jatuh Dari Langit</em></li>
+                <li><strong>Modul 5:</strong> <em>Jaga Duit, Jaga Bisnes</em></li>
               </ul>
             </div>
           </div>
 
           <div class="event-card">
             <div class="event-date">
-              <span class="date">23<sup>hb</sup> April 2025</span>
+              <span class="date">15<sup>hb</sup> Mei 2025</span>
             </div>
             <div class="event-content">
-              <h3>9 pagi - 4 petang</h3>
+              <h3>9 pagi - 1 petang</h3>
+              <ul>
+                <li><strong>Lawatan Industri Tempatan</strong></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="event-card">
+            <div class="event-date">
+              <span class="date">20<sup>hb</sup> Mei 2025</span>
+            </div>
+            <div class="event-content">
+              <h3>9 pagi - 5 petang</h3>
               <ul>
                 <li><strong>Modul 6:</strong> <em>Strategi Pemasaran Digital</em></li>
                 <li><strong>Modul 7:</strong> <em>Data Analitik : Mengumpul, Mentafsir dan Menganalisis data</em></li>
@@ -161,10 +161,10 @@
 
           <div class="event-card">
             <div class="event-date">
-              <span class="date">24<sup>hb</sup> April 2025</span>
+              <span class="date">21<sup>hb</sup> Mei 2025</span>
             </div>
             <div class="event-content">
-              <h3>9 pagi - 4 petang</h3>
+              <h3>9 pagi - 5 petang</h3>
               <ul>
                 <li><strong>Klinik Pitching 3</strong> <em>(Simulasi Pitch)</em></li>
               </ul>
@@ -173,7 +173,7 @@
 
           <div class="event-card">
             <div class="event-date">
-              <span class="date">7-8<sup>hb</sup> Mei 2025</span>
+              <span class="date">27 & 28<sup>hb</sup> Mei 2025</span>
             </div>
             <div class="event-content">
               <ul>
@@ -184,7 +184,7 @@
 
           <div class="event-card">
             <div class="event-date">
-              <span class="date">9<sup>hb</sup> Mei 2025</span>
+              <span class="date">4<sup>hb</sup> Jun 2025</span>
             </div>
             <div class="event-content">
               <ul>
@@ -195,7 +195,7 @@
 
           <div class="event-card">
             <div class="event-date">
-              <span class="date">24<sup>hb</sup> Mei 2025</span>
+              <span class="date">21<sup>hb</sup> Jun 2025</span>
             </div>
             <div class="event-content">
               <ul>
@@ -206,10 +206,9 @@
 
           <div class="event-card">
             <div class="event-date">
-              <span class="date">1<sup>hb</sup> Jun 2025</span>
+              <span class="date">Julai 2025 ke atas</span>
             </div>
             <div class="event-content">
-              <h3>Seterusnya</h3>
               <ul>
                 <li>Lawatan Industri ke Luar Negara</li>
               </ul>

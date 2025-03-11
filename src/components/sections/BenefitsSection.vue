@@ -17,6 +17,10 @@
           <img src="@/assets/travel.svg" alt="Travel" class="benefit-icon">
           <h3>Lawatan industri ke luar negara bagi 5 pemenang terbaik</h3>
         </div>
+        <div class="benefit-item">
+          <img src="@/assets/money.png" alt="Money" class="benefit-icon">
+          <h3>Manfaat bernilai sehingga RM30,000</h3>
+        </div>
       </div>
     </div>
   </section>

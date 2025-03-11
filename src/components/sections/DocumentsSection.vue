@@ -19,8 +19,6 @@
             <li>Tajuk</li>
             <li>Objektif produk/perkhidmatan bagi solusi penjagaan yang dicadangkan</li>
             <li>Penerangan produk/perkhidmatan bagi solusi penjagaan yang dicadangkan</li>
-            <li>Anggaran perbelanjaan</li>
-            <li>Ringkasan</li>
           </ol>
           <p>Video haruslah berdurasi 1 minit sahaja dan Video ATAU Slaid ATAU Kertas Kerja boleh dihantar di dalam bentuk link (Google Drive, YouTube etc) melalui Google Form yang disediakan.</p>
         </div>
