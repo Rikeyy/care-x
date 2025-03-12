@@ -11,7 +11,7 @@
         >
           Daftar Di Sini
         </a>
-        <h2 class="closing-date"><span>Tarikh tutup penyertaan 31 Mac 2025</span></h2>
+        <h2 class="closing-date"><span>Tarikh tutup penyertaan 31hb Mac 2025</span></h2>
         <button @click="downloadProfile" class="download-button">
           Muat Turun Profail Program
         </button>
