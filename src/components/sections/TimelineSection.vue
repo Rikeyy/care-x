@@ -139,9 +139,10 @@
               <span class="date">15<sup>hb</sup> Mei 2025</span>
             </div>
             <div class="event-content">
-              <h3>9 pagi - 1 petang</h3>
+              <h3>9 pagi - 5 petang</h3>
               <ul>
-                <li><strong>Lawatan Industri Tempatan</strong></li>
+                <li><strong>Modul 6:</strong> <em>Strategi Pemasaran Digital</em></li>
+                <li><strong>Modul 7:</strong> <em>Data Analitik : Mengumpul, Mentafsir dan Menganalisis data</em></li>
               </ul>
             </div>
           </div>
@@ -151,10 +152,9 @@
               <span class="date">20<sup>hb</sup> Mei 2025</span>
             </div>
             <div class="event-content">
-              <h3>9 pagi - 5 petang</h3>
+              <h3>9 pagi - 1 petang</h3>
               <ul>
-                <li><strong>Modul 6:</strong> <em>Strategi Pemasaran Digital</em></li>
-                <li><strong>Modul 7:</strong> <em>Data Analitik : Mengumpul, Mentafsir dan Menganalisis data</em></li>
+                <li><strong>Lawatan Industri Tempatan</strong></li>
               </ul>
             </div>
           </div>
